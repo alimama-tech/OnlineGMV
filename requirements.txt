@@ -1,0 +1,17 @@
+matplotlib
+numexpr
+numpy
+pandas
+scikit-learn
+tqdm==4.67.1
+pickleshare==0.7.5
+urllib3==2.2.3
+triton==3.0.0
+tensorboard
+# torch==2.4.1+cu118
+# torchaudio==2.4.1+cu118
+# torchvision==0.19.1+cu118
+
+
+
+

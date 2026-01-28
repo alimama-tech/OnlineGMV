@@ -1,0 +1,1814 @@
+Tue 14 Oct 2025 20:00:32 INFO Namespace(batch_size=1024, data_cache_path='./data/', data_path='./data/', dataset_name='gmv_each_pay_multi_user_with_prev.txt', embed_dim=16, epochs=1, gmv_attr_window=7, gpu_id='4', l2_reg=1e-05, learning_rate_scheduler=[0.99, 2], lr=0.01, mode='stream', model='baselinemlp_vanilla', model_save_pth='./pretrain_model/', num_workers=4, optimizer='Adam', pkl_remarks='backfill', pretrain_model='baselinemlp', pretrain_remarks='all_pay', remarks='search_lr', seed=2025, stopping_step=2, stream_step=0.125, test_end_day=82, test_start_day=57.125, train_end_day=81.875, train_start_day=57.0, weight_decay=0.0)
+Tue 14 Oct 2025 20:00:32 INFO ======load data======
+Tue 14 Oct 2025 20:00:32 INFO Loading data from cache path: ./data/
+Tue 14 Oct 2025 20:00:32 INFO cache_path ./data/vanilla_backfill_stream_backfill.pkl exists.
+Tue 14 Oct 2025 20:00:32 INFO loading cached data...
+Tue 14 Oct 2025 20:00:37 INFO pretrained_model: baselinemlp_pretrain_2025_all_pay.pth
+Tue 14 Oct 2025 20:00:38 INFO data_size: 5613
+Tue 14 Oct 2025 20:00:38 INFO multi_pay_size: 3860
+Tue 14 Oct 2025 20:00:38 INFO Day 0 - Epoch 1 - Avg Loss: 1.1772
+Tue 14 Oct 2025 20:00:38 INFO data_size: 1776
+Tue 14 Oct 2025 20:00:38 INFO multi_pay_size: 935
+Tue 14 Oct 2025 20:00:38 INFO Testing Day 1...
+Tue 14 Oct 2025 20:00:39 INFO Day 1 - Test AUC: 0.4355, Test ACC: 0.0952,Test ALPR: 1.8553
+Pretrain Test AUC: 0.8035, Pretrain Test ACC: 0.2416, Pretrain Test ALPR: 0.8383
+
+Tue 14 Oct 2025 20:00:39 INFO data_size: 2248
+Tue 14 Oct 2025 20:00:39 INFO multi_pay_size: 1538
+Tue 14 Oct 2025 20:00:39 INFO Day 1 - Epoch 1 - Avg Loss: 0.9074
+Tue 14 Oct 2025 20:00:39 INFO data_size: 8970
+Tue 14 Oct 2025 20:00:39 INFO multi_pay_size: 4594
+Tue 14 Oct 2025 20:00:39 INFO Testing Day 2...
+Tue 14 Oct 2025 20:00:40 INFO Day 2 - Test AUC: 0.7813, Test ACC: 0.1989,Test ALPR: 1.0506
+Pretrain Test AUC: 0.8055, Pretrain Test ACC: 0.2542, Pretrain Test ALPR: 0.8140
+
+Tue 14 Oct 2025 20:00:40 INFO data_size: 11118
+Tue 14 Oct 2025 20:00:40 INFO multi_pay_size: 7662
+Tue 14 Oct 2025 20:00:41 INFO Day 2 - Epoch 1 - Avg Loss: 0.6473
+Tue 14 Oct 2025 20:00:41 INFO data_size: 14174
+Tue 14 Oct 2025 20:00:41 INFO multi_pay_size: 7505
+Tue 14 Oct 2025 20:00:41 INFO Testing Day 3...
+Tue 14 Oct 2025 20:00:42 INFO Day 3 - Test AUC: 0.7928, Test ACC: 0.2181,Test ALPR: 0.9554
+Pretrain Test AUC: 0.8078, Pretrain Test ACC: 0.2542, Pretrain Test ALPR: 0.8078
+
+Tue 14 Oct 2025 20:00:42 INFO data_size: 23320
+Tue 14 Oct 2025 20:00:42 INFO multi_pay_size: 16600
+Tue 14 Oct 2025 20:00:43 INFO Day 3 - Epoch 1 - Avg Loss: 0.6266
+Tue 14 Oct 2025 20:00:43 INFO data_size: 13320
+Tue 14 Oct 2025 20:00:43 INFO multi_pay_size: 6971
+Tue 14 Oct 2025 20:00:43 INFO Testing Day 4...
+Tue 14 Oct 2025 20:00:44 INFO Day 4 - Test AUC: 0.7921, Test ACC: 0.2235,Test ALPR: 0.8878
+Pretrain Test AUC: 0.8027, Pretrain Test ACC: 0.2543, Pretrain Test ALPR: 0.8135
+
+Tue 14 Oct 2025 20:00:44 INFO data_size: 21487
+Tue 14 Oct 2025 20:00:44 INFO multi_pay_size: 15092
+Tue 14 Oct 2025 20:00:46 INFO Day 4 - Epoch 1 - Avg Loss: 0.5977
+Tue 14 Oct 2025 20:00:46 INFO data_size: 11732
+Tue 14 Oct 2025 20:00:46 INFO multi_pay_size: 6186
+Tue 14 Oct 2025 20:00:46 INFO Testing Day 5...
+Tue 14 Oct 2025 20:00:47 INFO Day 5 - Test AUC: 0.7964, Test ACC: 0.2283,Test ALPR: 0.8824
+Pretrain Test AUC: 0.8030, Pretrain Test ACC: 0.2545, Pretrain Test ALPR: 0.8346
+
+Tue 14 Oct 2025 20:00:47 INFO data_size: 19613
+Tue 14 Oct 2025 20:00:47 INFO multi_pay_size: 13931
+Tue 14 Oct 2025 20:00:49 INFO Day 5 - Epoch 1 - Avg Loss: 0.6158
+Tue 14 Oct 2025 20:00:49 INFO data_size: 9746
+Tue 14 Oct 2025 20:00:49 INFO multi_pay_size: 5148
+Tue 14 Oct 2025 20:00:49 INFO Testing Day 6...
+Tue 14 Oct 2025 20:00:49 INFO Day 6 - Test AUC: 0.7996, Test ACC: 0.2346,Test ALPR: 0.9017
+Pretrain Test AUC: 0.8042, Pretrain Test ACC: 0.2585, Pretrain Test ALPR: 0.8185
+
+Tue 14 Oct 2025 20:00:49 INFO data_size: 18395
+Tue 14 Oct 2025 20:00:49 INFO multi_pay_size: 12834
+Tue 14 Oct 2025 20:00:51 INFO Day 6 - Epoch 1 - Avg Loss: 0.5759
+Tue 14 Oct 2025 20:00:51 INFO data_size: 10403
+Tue 14 Oct 2025 20:00:51 INFO multi_pay_size: 5330
+Tue 14 Oct 2025 20:00:51 INFO Testing Day 7...
+Tue 14 Oct 2025 20:00:52 INFO Day 7 - Test AUC: 0.8062, Test ACC: 0.2280,Test ALPR: 0.8999
+Pretrain Test AUC: 0.8124, Pretrain Test ACC: 0.2542, Pretrain Test ALPR: 0.8106
+
+Tue 14 Oct 2025 20:00:52 INFO data_size: 19142
+Tue 14 Oct 2025 20:00:52 INFO multi_pay_size: 13139
+Tue 14 Oct 2025 20:00:53 INFO Day 7 - Epoch 1 - Avg Loss: 0.5751
+Tue 14 Oct 2025 20:00:53 INFO data_size: 3760
+Tue 14 Oct 2025 20:00:53 INFO multi_pay_size: 1955
+Tue 14 Oct 2025 20:00:53 INFO Testing Day 8...
+Tue 14 Oct 2025 20:00:54 INFO Day 8 - Test AUC: 0.7944, Test ACC: 0.2372,Test ALPR: 0.8387
+Pretrain Test AUC: 0.7995, Pretrain Test ACC: 0.2628, Pretrain Test ALPR: 0.8069
+
+Tue 14 Oct 2025 20:00:54 INFO data_size: 5918
+Tue 14 Oct 2025 20:00:54 INFO multi_pay_size: 4096
+Tue 14 Oct 2025 20:00:54 INFO Day 8 - Epoch 1 - Avg Loss: 0.5692
+Tue 14 Oct 2025 20:00:54 INFO data_size: 1620
+Tue 14 Oct 2025 20:00:54 INFO multi_pay_size: 823
+Tue 14 Oct 2025 20:00:54 INFO Testing Day 9...
+Tue 14 Oct 2025 20:00:55 INFO Day 9 - Test AUC: 0.7890, Test ACC: 0.2272,Test ALPR: 0.8791
+Pretrain Test AUC: 0.7955, Pretrain Test ACC: 0.2481, Pretrain Test ALPR: 0.8412
+
+Tue 14 Oct 2025 20:00:55 INFO data_size: 2092
+Tue 14 Oct 2025 20:00:55 INFO multi_pay_size: 1432
+Tue 14 Oct 2025 20:00:55 INFO Day 9 - Epoch 1 - Avg Loss: 0.5927
+Tue 14 Oct 2025 20:00:55 INFO data_size: 8045
+Tue 14 Oct 2025 20:00:55 INFO multi_pay_size: 4044
+Tue 14 Oct 2025 20:00:55 INFO Testing Day 10...
+Tue 14 Oct 2025 20:00:56 INFO Day 10 - Test AUC: 0.8031, Test ACC: 0.2297,Test ALPR: 0.8435
+Pretrain Test AUC: 0.8091, Pretrain Test ACC: 0.2566, Pretrain Test ALPR: 0.7919
+
+Tue 14 Oct 2025 20:00:56 INFO data_size: 10184
+Tue 14 Oct 2025 20:00:56 INFO multi_pay_size: 6944
+Tue 14 Oct 2025 20:00:57 INFO Day 10 - Epoch 1 - Avg Loss: 0.5844
+Tue 14 Oct 2025 20:00:57 INFO data_size: 13978
+Tue 14 Oct 2025 20:00:57 INFO multi_pay_size: 7380
+Tue 14 Oct 2025 20:00:57 INFO Testing Day 11...
+Tue 14 Oct 2025 20:00:58 INFO Day 11 - Test AUC: 0.7964, Test ACC: 0.2332,Test ALPR: 0.8412
+Pretrain Test AUC: 0.8027, Pretrain Test ACC: 0.2524, Pretrain Test ALPR: 0.8127
+
+Tue 14 Oct 2025 20:00:58 INFO data_size: 21563
+Tue 14 Oct 2025 20:00:58 INFO multi_pay_size: 15255
+Tue 14 Oct 2025 20:00:59 INFO Day 11 - Epoch 1 - Avg Loss: 0.5881
+Tue 14 Oct 2025 20:01:00 INFO data_size: 13577
+Tue 14 Oct 2025 20:01:00 INFO multi_pay_size: 7026
+Tue 14 Oct 2025 20:01:00 INFO Testing Day 12...
+Tue 14 Oct 2025 20:01:01 INFO Day 12 - Test AUC: 0.8006, Test ACC: 0.2383,Test ALPR: 0.8790
+Pretrain Test AUC: 0.8047, Pretrain Test ACC: 0.2576, Pretrain Test ALPR: 0.8061
+
+Tue 14 Oct 2025 20:01:01 INFO data_size: 21844
+Tue 14 Oct 2025 20:01:01 INFO multi_pay_size: 15245
+Tue 14 Oct 2025 20:01:02 INFO Day 12 - Epoch 1 - Avg Loss: 0.5946
+Tue 14 Oct 2025 20:01:02 INFO data_size: 12545
+Tue 14 Oct 2025 20:01:02 INFO multi_pay_size: 6475
+Tue 14 Oct 2025 20:01:02 INFO Testing Day 13...
+Tue 14 Oct 2025 20:01:03 INFO Day 13 - Test AUC: 0.8074, Test ACC: 0.2421,Test ALPR: 0.8239
+Pretrain Test AUC: 0.8114, Pretrain Test ACC: 0.2627, Pretrain Test ALPR: 0.7971
+
+Tue 14 Oct 2025 20:01:03 INFO data_size: 20851
+Tue 14 Oct 2025 20:01:03 INFO multi_pay_size: 14592
+Tue 14 Oct 2025 20:01:04 INFO Day 13 - Epoch 1 - Avg Loss: 0.5845
+Tue 14 Oct 2025 20:01:04 INFO data_size: 10707
+Tue 14 Oct 2025 20:01:04 INFO multi_pay_size: 5618
+Tue 14 Oct 2025 20:01:04 INFO Testing Day 14...
+Tue 14 Oct 2025 20:01:05 INFO Day 14 - Test AUC: 0.7990, Test ACC: 0.2359,Test ALPR: 0.8622
+Pretrain Test AUC: 0.8013, Pretrain Test ACC: 0.2481, Pretrain Test ALPR: 0.8226
+
+Tue 14 Oct 2025 20:01:05 INFO data_size: 18928
+Tue 14 Oct 2025 20:01:05 INFO multi_pay_size: 13291
+Tue 14 Oct 2025 20:01:06 INFO Day 14 - Epoch 1 - Avg Loss: 0.5691
+Tue 14 Oct 2025 20:01:06 INFO data_size: 11343
+Tue 14 Oct 2025 20:01:06 INFO multi_pay_size: 5776
+Tue 14 Oct 2025 20:01:06 INFO Testing Day 15...
+Tue 14 Oct 2025 20:01:07 INFO Day 15 - Test AUC: 0.8098, Test ACC: 0.2371,Test ALPR: 0.8242
+Pretrain Test AUC: 0.8121, Pretrain Test ACC: 0.2587, Pretrain Test ALPR: 0.7884
+
+Tue 14 Oct 2025 20:01:07 INFO data_size: 19505
+Tue 14 Oct 2025 20:01:07 INFO multi_pay_size: 13424
+Tue 14 Oct 2025 20:01:09 INFO Day 15 - Epoch 1 - Avg Loss: 0.5651
+Tue 14 Oct 2025 20:01:09 INFO data_size: 3802
+Tue 14 Oct 2025 20:01:09 INFO multi_pay_size: 1994
+Tue 14 Oct 2025 20:01:09 INFO Testing Day 16...
+Tue 14 Oct 2025 20:01:09 INFO Day 16 - Test AUC: 0.8015, Test ACC: 0.2380,Test ALPR: 0.8667
+Pretrain Test AUC: 0.8039, Pretrain Test ACC: 0.2570, Pretrain Test ALPR: 0.7906
+
+Tue 14 Oct 2025 20:01:09 INFO data_size: 6145
+Tue 14 Oct 2025 20:01:09 INFO multi_pay_size: 4190
+Tue 14 Oct 2025 20:01:10 INFO Day 16 - Epoch 1 - Avg Loss: 0.5339
+Tue 14 Oct 2025 20:01:10 INFO data_size: 1559
+Tue 14 Oct 2025 20:01:10 INFO multi_pay_size: 778
+Tue 14 Oct 2025 20:01:10 INFO Testing Day 17...
+Tue 14 Oct 2025 20:01:10 INFO Day 17 - Test AUC: 0.8078, Test ACC: 0.1565,Test ALPR: 1.0493
+Pretrain Test AUC: 0.8118, Pretrain Test ACC: 0.2463, Pretrain Test ALPR: 0.8106
+
+Tue 14 Oct 2025 20:01:10 INFO data_size: 2073
+Tue 14 Oct 2025 20:01:10 INFO multi_pay_size: 1382
+Tue 14 Oct 2025 20:01:11 INFO Day 17 - Epoch 1 - Avg Loss: 0.8547
+Tue 14 Oct 2025 20:01:11 INFO data_size: 7834
+Tue 14 Oct 2025 20:01:11 INFO multi_pay_size: 4000
+Tue 14 Oct 2025 20:01:11 INFO Testing Day 18...
+Tue 14 Oct 2025 20:01:11 INFO Day 18 - Test AUC: 0.7819, Test ACC: 0.1801,Test ALPR: 1.1578
+Pretrain Test AUC: 0.8079, Pretrain Test ACC: 0.2496, Pretrain Test ALPR: 0.8209
+
+Tue 14 Oct 2025 20:01:11 INFO data_size: 9771
+Tue 14 Oct 2025 20:01:11 INFO multi_pay_size: 6652
+Tue 14 Oct 2025 20:01:12 INFO Day 18 - Epoch 1 - Avg Loss: 0.7261
+Tue 14 Oct 2025 20:01:12 INFO data_size: 14716
+Tue 14 Oct 2025 20:01:12 INFO multi_pay_size: 7787
+Tue 14 Oct 2025 20:01:12 INFO Testing Day 19...
+Tue 14 Oct 2025 20:01:13 INFO Day 19 - Test AUC: 0.7764, Test ACC: 0.2128,Test ALPR: 0.9197
+Pretrain Test AUC: 0.8037, Pretrain Test ACC: 0.2533, Pretrain Test ALPR: 0.8081
+
+Tue 14 Oct 2025 20:01:13 INFO data_size: 22507
+Tue 14 Oct 2025 20:01:13 INFO multi_pay_size: 15790
+Tue 14 Oct 2025 20:01:15 INFO Day 19 - Epoch 1 - Avg Loss: 0.6114
+Tue 14 Oct 2025 20:01:15 INFO data_size: 13412
+Tue 14 Oct 2025 20:01:15 INFO multi_pay_size: 7154
+Tue 14 Oct 2025 20:01:15 INFO Testing Day 20...
+Tue 14 Oct 2025 20:01:16 INFO Day 20 - Test AUC: 0.7980, Test ACC: 0.2296,Test ALPR: 0.8520
+Pretrain Test AUC: 0.8044, Pretrain Test ACC: 0.2508, Pretrain Test ALPR: 0.8150
+
+Tue 14 Oct 2025 20:01:16 INFO data_size: 21698
+Tue 14 Oct 2025 20:01:16 INFO multi_pay_size: 15444
+Tue 14 Oct 2025 20:01:17 INFO Day 20 - Epoch 1 - Avg Loss: 0.5954
+Tue 14 Oct 2025 20:01:17 INFO data_size: 12628
+Tue 14 Oct 2025 20:01:17 INFO multi_pay_size: 6708
+Tue 14 Oct 2025 20:01:17 INFO Testing Day 21...
+Tue 14 Oct 2025 20:01:18 INFO Day 21 - Test AUC: 0.8024, Test ACC: 0.2458,Test ALPR: 0.8434
+Pretrain Test AUC: 0.8049, Pretrain Test ACC: 0.2591, Pretrain Test ALPR: 0.8056
+
+Tue 14 Oct 2025 20:01:18 INFO data_size: 21088
+Tue 14 Oct 2025 20:01:18 INFO multi_pay_size: 14875
+Tue 14 Oct 2025 20:01:19 INFO Day 21 - Epoch 1 - Avg Loss: 0.5883
+Tue 14 Oct 2025 20:01:20 INFO data_size: 11033
+Tue 14 Oct 2025 20:01:20 INFO multi_pay_size: 5801
+Tue 14 Oct 2025 20:01:20 INFO Testing Day 22...
+Tue 14 Oct 2025 20:01:20 INFO Day 22 - Test AUC: 0.8069, Test ACC: 0.2415,Test ALPR: 0.8597
+Pretrain Test AUC: 0.8103, Pretrain Test ACC: 0.2611, Pretrain Test ALPR: 0.7984
+
+Tue 14 Oct 2025 20:01:20 INFO data_size: 18563
+Tue 14 Oct 2025 20:01:20 INFO multi_pay_size: 13287
+Tue 14 Oct 2025 20:01:21 INFO Day 22 - Epoch 1 - Avg Loss: 0.5763
+Tue 14 Oct 2025 20:01:21 INFO data_size: 11356
+Tue 14 Oct 2025 20:01:21 INFO multi_pay_size: 5765
+Tue 14 Oct 2025 20:01:21 INFO Testing Day 23...
+Tue 14 Oct 2025 20:01:22 INFO Day 23 - Test AUC: 0.8129, Test ACC: 0.2403,Test ALPR: 0.8608
+Pretrain Test AUC: 0.8132, Pretrain Test ACC: 0.2597, Pretrain Test ALPR: 0.7860
+
+Tue 14 Oct 2025 20:01:22 INFO data_size: 19753
+Tue 14 Oct 2025 20:01:22 INFO multi_pay_size: 13731
+Tue 14 Oct 2025 20:01:24 INFO Day 23 - Epoch 1 - Avg Loss: 0.5600
+Tue 14 Oct 2025 20:01:24 INFO data_size: 3842
+Tue 14 Oct 2025 20:01:24 INFO multi_pay_size: 2027
+Tue 14 Oct 2025 20:01:24 INFO Testing Day 24...
+Tue 14 Oct 2025 20:01:24 INFO Day 24 - Test AUC: 0.8021, Test ACC: 0.2306,Test ALPR: 0.8796
+Pretrain Test AUC: 0.8018, Pretrain Test ACC: 0.2413, Pretrain Test ALPR: 0.8009
+
+Tue 14 Oct 2025 20:01:24 INFO data_size: 5617
+Tue 14 Oct 2025 20:01:24 INFO multi_pay_size: 3861
+Tue 14 Oct 2025 20:01:25 INFO Day 24 - Epoch 1 - Avg Loss: 0.5603
+Tue 14 Oct 2025 20:01:25 INFO data_size: 1547
+Tue 14 Oct 2025 20:01:25 INFO multi_pay_size: 785
+Tue 14 Oct 2025 20:01:25 INFO Testing Day 25...
+Tue 14 Oct 2025 20:01:26 INFO Day 25 - Test AUC: 0.8110, Test ACC: 0.2398,Test ALPR: 0.8335
+Pretrain Test AUC: 0.8094, Pretrain Test ACC: 0.2515, Pretrain Test ALPR: 0.7950
+
+Tue 14 Oct 2025 20:01:26 INFO data_size: 2016
+Tue 14 Oct 2025 20:01:26 INFO multi_pay_size: 1345
+Tue 14 Oct 2025 20:01:26 INFO Day 25 - Epoch 1 - Avg Loss: 0.5664
+Tue 14 Oct 2025 20:01:26 INFO data_size: 8123
+Tue 14 Oct 2025 20:01:26 INFO multi_pay_size: 4213
+Tue 14 Oct 2025 20:01:26 INFO Testing Day 26...
+Tue 14 Oct 2025 20:01:27 INFO Day 26 - Test AUC: 0.8085, Test ACC: 0.2481,Test ALPR: 0.8272
+Pretrain Test AUC: 0.8071, Pretrain Test ACC: 0.2605, Pretrain Test ALPR: 0.8020
+
+Tue 14 Oct 2025 20:01:27 INFO data_size: 9882
+Tue 14 Oct 2025 20:01:27 INFO multi_pay_size: 6894
+Tue 14 Oct 2025 20:01:28 INFO Day 26 - Epoch 1 - Avg Loss: 0.5665
+Tue 14 Oct 2025 20:01:28 INFO data_size: 15058
+Tue 14 Oct 2025 20:01:28 INFO multi_pay_size: 7962
+Tue 14 Oct 2025 20:01:28 INFO Testing Day 27...
+Tue 14 Oct 2025 20:01:29 INFO Day 27 - Test AUC: 0.8027, Test ACC: 0.2367,Test ALPR: 0.8256
+Pretrain Test AUC: 0.8032, Pretrain Test ACC: 0.2569, Pretrain Test ALPR: 0.8065
+
+Tue 14 Oct 2025 20:01:29 INFO data_size: 23383
+Tue 14 Oct 2025 20:01:29 INFO multi_pay_size: 16501
+Tue 14 Oct 2025 20:01:30 INFO Day 27 - Epoch 1 - Avg Loss: 0.5776
+Tue 14 Oct 2025 20:01:31 INFO data_size: 14011
+Tue 14 Oct 2025 20:01:31 INFO multi_pay_size: 7296
+Tue 14 Oct 2025 20:01:31 INFO Testing Day 28...
+Tue 14 Oct 2025 20:01:32 INFO Day 28 - Test AUC: 0.8048, Test ACC: 0.2462,Test ALPR: 0.8270
+Pretrain Test AUC: 0.8052, Pretrain Test ACC: 0.2629, Pretrain Test ALPR: 0.8000
+
+Tue 14 Oct 2025 20:01:32 INFO data_size: 22410
+Tue 14 Oct 2025 20:01:32 INFO multi_pay_size: 15872
+Tue 14 Oct 2025 20:01:33 INFO Day 28 - Epoch 1 - Avg Loss: 0.5714
+Tue 14 Oct 2025 20:01:33 INFO data_size: 12286
+Tue 14 Oct 2025 20:01:33 INFO multi_pay_size: 6540
+Tue 14 Oct 2025 20:01:33 INFO Testing Day 29...
+Tue 14 Oct 2025 20:01:34 INFO Day 29 - Test AUC: 0.8049, Test ACC: 0.2434,Test ALPR: 0.8451
+Pretrain Test AUC: 0.8020, Pretrain Test ACC: 0.2473, Pretrain Test ALPR: 0.8272
+
+Tue 14 Oct 2025 20:01:34 INFO data_size: 20863
+Tue 14 Oct 2025 20:01:34 INFO multi_pay_size: 14766
+Tue 14 Oct 2025 20:01:36 INFO Day 29 - Epoch 1 - Avg Loss: 0.5744
+Tue 14 Oct 2025 20:01:36 INFO data_size: 10697
+Tue 14 Oct 2025 20:01:36 INFO multi_pay_size: 5814
+Tue 14 Oct 2025 20:01:36 INFO Testing Day 30...
+Tue 14 Oct 2025 20:01:37 INFO Day 30 - Test AUC: 0.8104, Test ACC: 0.2418,Test ALPR: 0.8295
+Pretrain Test AUC: 0.8069, Pretrain Test ACC: 0.2560, Pretrain Test ALPR: 0.8155
+
+Tue 14 Oct 2025 20:01:37 INFO data_size: 19709
+Tue 14 Oct 2025 20:01:37 INFO multi_pay_size: 14302
+Tue 14 Oct 2025 20:01:38 INFO Day 30 - Epoch 1 - Avg Loss: 0.5619
+Tue 14 Oct 2025 20:01:38 INFO data_size: 10636
+Tue 14 Oct 2025 20:01:38 INFO multi_pay_size: 5539
+Tue 14 Oct 2025 20:01:38 INFO Testing Day 31...
+Tue 14 Oct 2025 20:01:39 INFO Day 31 - Test AUC: 0.8132, Test ACC: 0.2437,Test ALPR: 0.8329
+Pretrain Test AUC: 0.8106, Pretrain Test ACC: 0.2589, Pretrain Test ALPR: 0.7976
+
+Tue 14 Oct 2025 20:01:39 INFO data_size: 20167
+Tue 14 Oct 2025 20:01:39 INFO multi_pay_size: 14089
+Tue 14 Oct 2025 20:01:40 INFO Day 31 - Epoch 1 - Avg Loss: 0.5435
+Tue 14 Oct 2025 20:01:40 INFO data_size: 3631
+Tue 14 Oct 2025 20:01:40 INFO multi_pay_size: 1941
+Tue 14 Oct 2025 20:01:40 INFO Testing Day 32...
+Tue 14 Oct 2025 20:01:41 INFO Day 32 - Test AUC: 0.8062, Test ACC: 0.2418,Test ALPR: 0.8179
+Pretrain Test AUC: 0.8029, Pretrain Test ACC: 0.2589, Pretrain Test ALPR: 0.7902
+
+Tue 14 Oct 2025 20:01:41 INFO data_size: 6093
+Tue 14 Oct 2025 20:01:41 INFO multi_pay_size: 4224
+Tue 14 Oct 2025 20:01:41 INFO Day 32 - Epoch 1 - Avg Loss: 0.5423
+Tue 14 Oct 2025 20:01:41 INFO data_size: 1631
+Tue 14 Oct 2025 20:01:41 INFO multi_pay_size: 827
+Tue 14 Oct 2025 20:01:41 INFO Testing Day 33...
+Tue 14 Oct 2025 20:01:42 INFO Day 33 - Test AUC: 0.8146, Test ACC: 0.2416,Test ALPR: 0.8127
+Pretrain Test AUC: 0.8058, Pretrain Test ACC: 0.2465, Pretrain Test ALPR: 0.8113
+
+Tue 14 Oct 2025 20:01:42 INFO data_size: 2205
+Tue 14 Oct 2025 20:01:42 INFO multi_pay_size: 1475
+Tue 14 Oct 2025 20:01:42 INFO Day 33 - Epoch 1 - Avg Loss: 0.5428
+Tue 14 Oct 2025 20:01:42 INFO data_size: 8854
+Tue 14 Oct 2025 20:01:42 INFO multi_pay_size: 4627
+Tue 14 Oct 2025 20:01:42 INFO Testing Day 34...
+Tue 14 Oct 2025 20:01:43 INFO Day 34 - Test AUC: 0.8050, Test ACC: 0.2354,Test ALPR: 0.8990
+Pretrain Test AUC: 0.8033, Pretrain Test ACC: 0.2519, Pretrain Test ALPR: 0.8267
+
+Tue 14 Oct 2025 20:01:43 INFO data_size: 11382
+Tue 14 Oct 2025 20:01:43 INFO multi_pay_size: 7866
+Tue 14 Oct 2025 20:01:44 INFO Day 34 - Epoch 1 - Avg Loss: 0.5623
+Tue 14 Oct 2025 20:01:44 INFO data_size: 14591
+Tue 14 Oct 2025 20:01:44 INFO multi_pay_size: 7707
+Tue 14 Oct 2025 20:01:44 INFO Testing Day 35...
+Tue 14 Oct 2025 20:01:45 INFO Day 35 - Test AUC: 0.8062, Test ACC: 0.2447,Test ALPR: 0.8440
+Pretrain Test AUC: 0.8037, Pretrain Test ACC: 0.2577, Pretrain Test ALPR: 0.8097
+
+Tue 14 Oct 2025 20:01:45 INFO data_size: 23132
+Tue 14 Oct 2025 20:01:45 INFO multi_pay_size: 16258
+Tue 14 Oct 2025 20:01:46 INFO Day 35 - Epoch 1 - Avg Loss: 0.5718
+Tue 14 Oct 2025 20:01:46 INFO data_size: 13916
+Tue 14 Oct 2025 20:01:46 INFO multi_pay_size: 7351
+Tue 14 Oct 2025 20:01:46 INFO Testing Day 36...
+Tue 14 Oct 2025 20:01:47 INFO Day 36 - Test AUC: 0.8107, Test ACC: 0.2397,Test ALPR: 0.8315
+Pretrain Test AUC: 0.8071, Pretrain Test ACC: 0.2479, Pretrain Test ALPR: 0.8118
+
+Tue 14 Oct 2025 20:01:47 INFO data_size: 22422
+Tue 14 Oct 2025 20:01:47 INFO multi_pay_size: 15746
+Tue 14 Oct 2025 20:01:49 INFO Day 36 - Epoch 1 - Avg Loss: 0.5687
+Tue 14 Oct 2025 20:01:49 INFO data_size: 12600
+Tue 14 Oct 2025 20:01:49 INFO multi_pay_size: 6607
+Tue 14 Oct 2025 20:01:49 INFO Testing Day 37...
+Tue 14 Oct 2025 20:01:50 INFO Day 37 - Test AUC: 0.8092, Test ACC: 0.2595,Test ALPR: 0.8052
+Pretrain Test AUC: 0.8052, Pretrain Test ACC: 0.2601, Pretrain Test ALPR: 0.8122
+
+Tue 14 Oct 2025 20:01:50 INFO data_size: 21163
+Tue 14 Oct 2025 20:01:50 INFO multi_pay_size: 14826
+Tue 14 Oct 2025 20:01:51 INFO Day 37 - Epoch 1 - Avg Loss: 0.5636
+Tue 14 Oct 2025 20:01:51 INFO data_size: 10666
+Tue 14 Oct 2025 20:01:51 INFO multi_pay_size: 5738
+Tue 14 Oct 2025 20:01:51 INFO Testing Day 38...
+Tue 14 Oct 2025 20:01:52 INFO Day 38 - Test AUC: 0.8064, Test ACC: 0.2535,Test ALPR: 0.8515
+Pretrain Test AUC: 0.8009, Pretrain Test ACC: 0.2554, Pretrain Test ALPR: 0.8197
+
+Tue 14 Oct 2025 20:01:52 INFO data_size: 18958
+Tue 14 Oct 2025 20:01:52 INFO multi_pay_size: 13876
+Tue 14 Oct 2025 20:01:53 INFO Day 38 - Epoch 1 - Avg Loss: 0.5597
+Tue 14 Oct 2025 20:01:53 INFO data_size: 10758
+Tue 14 Oct 2025 20:01:53 INFO multi_pay_size: 5636
+Tue 14 Oct 2025 20:01:53 INFO Testing Day 39...
+Tue 14 Oct 2025 20:01:55 INFO Day 39 - Test AUC: 0.8138, Test ACC: 0.2460,Test ALPR: 0.7975
+Pretrain Test AUC: 0.8092, Pretrain Test ACC: 0.2575, Pretrain Test ALPR: 0.7948
+
+Tue 14 Oct 2025 20:01:55 INFO data_size: 19571
+Tue 14 Oct 2025 20:01:55 INFO multi_pay_size: 13710
+Tue 14 Oct 2025 20:01:56 INFO Day 39 - Epoch 1 - Avg Loss: 0.5429
+Tue 14 Oct 2025 20:01:56 INFO data_size: 3457
+Tue 14 Oct 2025 20:01:56 INFO multi_pay_size: 1831
+Tue 14 Oct 2025 20:01:56 INFO Testing Day 40...
+Tue 14 Oct 2025 20:01:56 INFO Day 40 - Test AUC: 0.8067, Test ACC: 0.2467,Test ALPR: 0.8275
+Pretrain Test AUC: 0.8000, Pretrain Test ACC: 0.2548, Pretrain Test ALPR: 0.8123
+
+Tue 14 Oct 2025 20:01:56 INFO data_size: 5671
+Tue 14 Oct 2025 20:01:56 INFO multi_pay_size: 3942
+Tue 14 Oct 2025 20:01:57 INFO Day 40 - Epoch 1 - Avg Loss: 0.5238
+Tue 14 Oct 2025 20:01:57 INFO data_size: 1523
+Tue 14 Oct 2025 20:01:57 INFO multi_pay_size: 775
+Tue 14 Oct 2025 20:01:57 INFO Testing Day 41...
+Tue 14 Oct 2025 20:01:57 INFO Day 41 - Test AUC: 0.8127, Test ACC: 0.2502,Test ALPR: 0.8313
+Pretrain Test AUC: 0.8111, Pretrain Test ACC: 0.2456, Pretrain Test ALPR: 0.8170
+
+Tue 14 Oct 2025 20:01:57 INFO data_size: 2093
+Tue 14 Oct 2025 20:01:57 INFO multi_pay_size: 1438
+Tue 14 Oct 2025 20:01:58 INFO Day 41 - Epoch 1 - Avg Loss: 0.4976
+Tue 14 Oct 2025 20:01:58 INFO data_size: 8518
+Tue 14 Oct 2025 20:01:58 INFO multi_pay_size: 4461
+Tue 14 Oct 2025 20:01:58 INFO Testing Day 42...
+Tue 14 Oct 2025 20:01:59 INFO Day 42 - Test AUC: 0.8071, Test ACC: 0.2475,Test ALPR: 0.8585
+Pretrain Test AUC: 0.8026, Pretrain Test ACC: 0.2578, Pretrain Test ALPR: 0.8160
+
+Tue 14 Oct 2025 20:01:59 INFO data_size: 10970
+Tue 14 Oct 2025 20:01:59 INFO multi_pay_size: 7689
+Tue 14 Oct 2025 20:02:00 INFO Day 42 - Epoch 1 - Avg Loss: 0.5598
+Tue 14 Oct 2025 20:02:00 INFO data_size: 14652
+Tue 14 Oct 2025 20:02:00 INFO multi_pay_size: 8010
+Tue 14 Oct 2025 20:02:00 INFO Testing Day 43...
+Tue 14 Oct 2025 20:02:01 INFO Day 43 - Test AUC: 0.8057, Test ACC: 0.2351,Test ALPR: 0.8366
+Pretrain Test AUC: 0.8019, Pretrain Test ACC: 0.2505, Pretrain Test ALPR: 0.8195
+
+Tue 14 Oct 2025 20:02:01 INFO data_size: 22730
+Tue 14 Oct 2025 20:02:01 INFO multi_pay_size: 16112
+Tue 14 Oct 2025 20:02:02 INFO Day 43 - Epoch 1 - Avg Loss: 0.5697
+Tue 14 Oct 2025 20:02:02 INFO data_size: 13941
+Tue 14 Oct 2025 20:02:02 INFO multi_pay_size: 7459
+Tue 14 Oct 2025 20:02:02 INFO Testing Day 44...
+Tue 14 Oct 2025 20:02:03 INFO Day 44 - Test AUC: 0.8102, Test ACC: 0.2335,Test ALPR: 0.8137
+Pretrain Test AUC: 0.8044, Pretrain Test ACC: 0.2556, Pretrain Test ALPR: 0.8198
+
+Tue 14 Oct 2025 20:02:03 INFO data_size: 21949
+Tue 14 Oct 2025 20:02:03 INFO multi_pay_size: 15591
+Tue 14 Oct 2025 20:02:05 INFO Day 44 - Epoch 1 - Avg Loss: 0.5657
+Tue 14 Oct 2025 20:02:05 INFO data_size: 11773
+Tue 14 Oct 2025 20:02:05 INFO multi_pay_size: 6453
+Tue 14 Oct 2025 20:02:05 INFO Testing Day 45...
+Tue 14 Oct 2025 20:02:06 INFO Day 45 - Test AUC: 0.8081, Test ACC: 0.2456,Test ALPR: 0.8753
+Pretrain Test AUC: 0.8021, Pretrain Test ACC: 0.2536, Pretrain Test ALPR: 0.8317
+
+Tue 14 Oct 2025 20:02:06 INFO data_size: 20281
+Tue 14 Oct 2025 20:02:06 INFO multi_pay_size: 14470
+Tue 14 Oct 2025 20:02:07 INFO Day 45 - Epoch 1 - Avg Loss: 0.5735
+Tue 14 Oct 2025 20:02:07 INFO data_size: 9751
+Tue 14 Oct 2025 20:02:07 INFO multi_pay_size: 5372
+Tue 14 Oct 2025 20:02:07 INFO Testing Day 46...
+Tue 14 Oct 2025 20:02:08 INFO Day 46 - Test AUC: 0.8143, Test ACC: 0.2508,Test ALPR: 0.8249
+Pretrain Test AUC: 0.8048, Pretrain Test ACC: 0.2491, Pretrain Test ALPR: 0.8204
+
+Tue 14 Oct 2025 20:02:08 INFO data_size: 17894
+Tue 14 Oct 2025 20:02:08 INFO multi_pay_size: 13188
+Tue 14 Oct 2025 20:02:09 INFO Day 46 - Epoch 1 - Avg Loss: 0.5538
+Tue 14 Oct 2025 20:02:09 INFO data_size: 10491
+Tue 14 Oct 2025 20:02:09 INFO multi_pay_size: 5570
+Tue 14 Oct 2025 20:02:09 INFO Testing Day 47...
+Tue 14 Oct 2025 20:02:10 INFO Day 47 - Test AUC: 0.8163, Test ACC: 0.2464,Test ALPR: 0.7850
+Pretrain Test AUC: 0.8073, Pretrain Test ACC: 0.2509, Pretrain Test ALPR: 0.8070
+
+Tue 14 Oct 2025 20:02:10 INFO data_size: 19587
+Tue 14 Oct 2025 20:02:10 INFO multi_pay_size: 13929
+Tue 14 Oct 2025 20:02:12 INFO Day 47 - Epoch 1 - Avg Loss: 0.5335
+Tue 14 Oct 2025 20:02:12 INFO data_size: 3502
+Tue 14 Oct 2025 20:02:12 INFO multi_pay_size: 1902
+Tue 14 Oct 2025 20:02:12 INFO Testing Day 48...
+Tue 14 Oct 2025 20:02:13 INFO Day 48 - Test AUC: 0.8029, Test ACC: 0.2464,Test ALPR: 0.8153
+Pretrain Test AUC: 0.7907, Pretrain Test ACC: 0.2550, Pretrain Test ALPR: 0.8298
+
+Tue 14 Oct 2025 20:02:13 INFO data_size: 5677
+Tue 14 Oct 2025 20:02:13 INFO multi_pay_size: 3970
+Tue 14 Oct 2025 20:02:13 INFO Day 48 - Epoch 1 - Avg Loss: 0.5400
+Tue 14 Oct 2025 20:02:13 INFO data_size: 1465
+Tue 14 Oct 2025 20:02:13 INFO multi_pay_size: 739
+Tue 14 Oct 2025 20:02:13 INFO Testing Day 49...
+Tue 14 Oct 2025 20:02:14 INFO Day 49 - Test AUC: 0.8161, Test ACC: 0.2396,Test ALPR: 0.8357
+Pretrain Test AUC: 0.8088, Pretrain Test ACC: 0.2416, Pretrain Test ALPR: 0.8117
+
+Tue 14 Oct 2025 20:02:14 INFO data_size: 1985
+Tue 14 Oct 2025 20:02:14 INFO multi_pay_size: 1358
+Tue 14 Oct 2025 20:02:14 INFO Day 49 - Epoch 1 - Avg Loss: 0.5560
+Tue 14 Oct 2025 20:02:14 INFO data_size: 8653
+Tue 14 Oct 2025 20:02:14 INFO multi_pay_size: 4575
+Tue 14 Oct 2025 20:02:14 INFO Testing Day 50...
+Tue 14 Oct 2025 20:02:15 INFO Day 50 - Test AUC: 0.8173, Test ACC: 0.2388,Test ALPR: 0.8073
+Pretrain Test AUC: 0.8092, Pretrain Test ACC: 0.2455, Pretrain Test ALPR: 0.8169
+
+Tue 14 Oct 2025 20:02:15 INFO data_size: 10852
+Tue 14 Oct 2025 20:02:15 INFO multi_pay_size: 7572
+Tue 14 Oct 2025 20:02:16 INFO Day 50 - Epoch 1 - Avg Loss: 0.5495
+Tue 14 Oct 2025 20:02:16 INFO data_size: 14688
+Tue 14 Oct 2025 20:02:16 INFO multi_pay_size: 7909
+Tue 14 Oct 2025 20:02:16 INFO Testing Day 51...
+Tue 14 Oct 2025 20:02:17 INFO Day 51 - Test AUC: 0.8092, Test ACC: 0.2405,Test ALPR: 0.8322
+Pretrain Test AUC: 0.8018, Pretrain Test ACC: 0.2493, Pretrain Test ALPR: 0.8170
+
+Tue 14 Oct 2025 20:02:17 INFO data_size: 22581
+Tue 14 Oct 2025 20:02:17 INFO multi_pay_size: 15934
+Tue 14 Oct 2025 20:02:19 INFO Day 51 - Epoch 1 - Avg Loss: 0.5553
+Tue 14 Oct 2025 20:02:19 INFO data_size: 14356
+Tue 14 Oct 2025 20:02:19 INFO multi_pay_size: 7828
+Tue 14 Oct 2025 20:02:19 INFO Testing Day 52...
+Tue 14 Oct 2025 20:02:20 INFO Day 52 - Test AUC: 0.8115, Test ACC: 0.2460,Test ALPR: 0.8107
+Pretrain Test AUC: 0.8008, Pretrain Test ACC: 0.2579, Pretrain Test ALPR: 0.8217
+
+Tue 14 Oct 2025 20:02:20 INFO data_size: 22228
+Tue 14 Oct 2025 20:02:20 INFO multi_pay_size: 15918
+Tue 14 Oct 2025 20:02:21 INFO Day 52 - Epoch 1 - Avg Loss: 0.5531
+Tue 14 Oct 2025 20:02:21 INFO data_size: 12882
+Tue 14 Oct 2025 20:02:21 INFO multi_pay_size: 6879
+Tue 14 Oct 2025 20:02:21 INFO Testing Day 53...
+Tue 14 Oct 2025 20:02:22 INFO Day 53 - Test AUC: 0.8139, Test ACC: 0.2448,Test ALPR: 0.7992
+Pretrain Test AUC: 0.8041, Pretrain Test ACC: 0.2555, Pretrain Test ALPR: 0.8264
+
+Tue 14 Oct 2025 20:02:22 INFO data_size: 20779
+Tue 14 Oct 2025 20:02:22 INFO multi_pay_size: 14700
+Tue 14 Oct 2025 20:02:24 INFO Day 53 - Epoch 1 - Avg Loss: 0.5591
+Tue 14 Oct 2025 20:02:24 INFO data_size: 11182
+Tue 14 Oct 2025 20:02:24 INFO multi_pay_size: 6112
+Tue 14 Oct 2025 20:02:24 INFO Testing Day 54...
+Tue 14 Oct 2025 20:02:25 INFO Day 54 - Test AUC: 0.8159, Test ACC: 0.2474,Test ALPR: 0.7985
+Pretrain Test AUC: 0.8057, Pretrain Test ACC: 0.2468, Pretrain Test ALPR: 0.8191
+
+Tue 14 Oct 2025 20:02:25 INFO data_size: 17987
+Tue 14 Oct 2025 20:02:25 INFO multi_pay_size: 13200
+Tue 14 Oct 2025 20:02:26 INFO Day 54 - Epoch 1 - Avg Loss: 0.5526
+Tue 14 Oct 2025 20:02:26 INFO data_size: 12062
+Tue 14 Oct 2025 20:02:26 INFO multi_pay_size: 6287
+Tue 14 Oct 2025 20:02:26 INFO Testing Day 55...
+Tue 14 Oct 2025 20:02:27 INFO Day 55 - Test AUC: 0.8182, Test ACC: 0.2353,Test ALPR: 0.7865
+Pretrain Test AUC: 0.8102, Pretrain Test ACC: 0.2512, Pretrain Test ALPR: 0.8091
+
+Tue 14 Oct 2025 20:02:27 INFO data_size: 20190
+Tue 14 Oct 2025 20:02:27 INFO multi_pay_size: 14291
+Tue 14 Oct 2025 20:02:28 INFO Day 55 - Epoch 1 - Avg Loss: 0.5323
+Tue 14 Oct 2025 20:02:28 INFO data_size: 3872
+Tue 14 Oct 2025 20:02:29 INFO multi_pay_size: 2096
+Tue 14 Oct 2025 20:02:29 INFO Testing Day 56...
+Tue 14 Oct 2025 20:02:29 INFO Day 56 - Test AUC: 0.8082, Test ACC: 0.2492,Test ALPR: 0.8157
+Pretrain Test AUC: 0.7990, Pretrain Test ACC: 0.2531, Pretrain Test ALPR: 0.8070
+
+Tue 14 Oct 2025 20:02:29 INFO data_size: 5867
+Tue 14 Oct 2025 20:02:29 INFO multi_pay_size: 4019
+Tue 14 Oct 2025 20:02:30 INFO Day 56 - Epoch 1 - Avg Loss: 0.5223
+Tue 14 Oct 2025 20:02:30 INFO data_size: 1718
+Tue 14 Oct 2025 20:02:30 INFO multi_pay_size: 874
+Tue 14 Oct 2025 20:02:30 INFO Testing Day 57...
+Tue 14 Oct 2025 20:02:30 INFO Day 57 - Test AUC: 0.8042, Test ACC: 0.2567,Test ALPR: 0.8364
+Pretrain Test AUC: 0.7827, Pretrain Test ACC: 0.2276, Pretrain Test ALPR: 0.8890
+
+Tue 14 Oct 2025 20:02:30 INFO data_size: 2166
+Tue 14 Oct 2025 20:02:30 INFO multi_pay_size: 1471
+Tue 14 Oct 2025 20:02:31 INFO Day 57 - Epoch 1 - Avg Loss: 0.5380
+Tue 14 Oct 2025 20:02:31 INFO data_size: 9327
+Tue 14 Oct 2025 20:02:31 INFO multi_pay_size: 4993
+Tue 14 Oct 2025 20:02:31 INFO Testing Day 58...
+Tue 14 Oct 2025 20:02:31 INFO Day 58 - Test AUC: 0.8133, Test ACC: 0.2404,Test ALPR: 0.8073
+Pretrain Test AUC: 0.8046, Pretrain Test ACC: 0.2427, Pretrain Test ALPR: 0.8237
+
+Tue 14 Oct 2025 20:02:31 INFO data_size: 11502
+Tue 14 Oct 2025 20:02:31 INFO multi_pay_size: 8117
+Tue 14 Oct 2025 20:02:32 INFO Day 58 - Epoch 1 - Avg Loss: 0.5450
+Tue 14 Oct 2025 20:02:32 INFO data_size: 15275
+Tue 14 Oct 2025 20:02:32 INFO multi_pay_size: 8315
+Tue 14 Oct 2025 20:02:32 INFO Testing Day 59...
+Tue 14 Oct 2025 20:02:34 INFO Day 59 - Test AUC: 0.8117, Test ACC: 0.2409,Test ALPR: 0.8252
+Pretrain Test AUC: 0.8031, Pretrain Test ACC: 0.2527, Pretrain Test ALPR: 0.8223
+
+Tue 14 Oct 2025 20:02:34 INFO data_size: 23558
+Tue 14 Oct 2025 20:02:34 INFO multi_pay_size: 16689
+Tue 14 Oct 2025 20:02:35 INFO Day 59 - Epoch 1 - Avg Loss: 0.5467
+Tue 14 Oct 2025 20:02:35 INFO data_size: 14438
+Tue 14 Oct 2025 20:02:35 INFO multi_pay_size: 7756
+Tue 14 Oct 2025 20:02:35 INFO Testing Day 60...
+Tue 14 Oct 2025 20:02:36 INFO Day 60 - Test AUC: 0.8136, Test ACC: 0.2502,Test ALPR: 0.8405
+Pretrain Test AUC: 0.8039, Pretrain Test ACC: 0.2534, Pretrain Test ALPR: 0.8252
+
+Tue 14 Oct 2025 20:02:36 INFO data_size: 22469
+Tue 14 Oct 2025 20:02:36 INFO multi_pay_size: 15944
+Tue 14 Oct 2025 20:02:37 INFO Day 60 - Epoch 1 - Avg Loss: 0.5632
+Tue 14 Oct 2025 20:02:37 INFO data_size: 12530
+Tue 14 Oct 2025 20:02:37 INFO multi_pay_size: 6709
+Tue 14 Oct 2025 20:02:37 INFO Testing Day 61...
+Tue 14 Oct 2025 20:02:38 INFO Day 61 - Test AUC: 0.8090, Test ACC: 0.2436,Test ALPR: 0.8360
+Pretrain Test AUC: 0.8017, Pretrain Test ACC: 0.2547, Pretrain Test ALPR: 0.8182
+
+Tue 14 Oct 2025 20:02:38 INFO data_size: 20278
+Tue 14 Oct 2025 20:02:38 INFO multi_pay_size: 14342
+Tue 14 Oct 2025 20:02:39 INFO Day 61 - Epoch 1 - Avg Loss: 0.5645
+Tue 14 Oct 2025 20:02:39 INFO data_size: 10325
+Tue 14 Oct 2025 20:02:39 INFO multi_pay_size: 5782
+Tue 14 Oct 2025 20:02:39 INFO Testing Day 62...
+Tue 14 Oct 2025 20:02:40 INFO Day 62 - Test AUC: 0.8152, Test ACC: 0.2461,Test ALPR: 0.7944
+Pretrain Test AUC: 0.8049, Pretrain Test ACC: 0.2442, Pretrain Test ALPR: 0.8218
+
+Tue 14 Oct 2025 20:02:40 INFO data_size: 17179
+Tue 14 Oct 2025 20:02:40 INFO multi_pay_size: 12834
+Tue 14 Oct 2025 20:02:41 INFO Day 62 - Epoch 1 - Avg Loss: 0.5569
+Tue 14 Oct 2025 20:02:41 INFO data_size: 11145
+Tue 14 Oct 2025 20:02:41 INFO multi_pay_size: 5953
+Tue 14 Oct 2025 20:02:41 INFO Testing Day 63...
+Tue 14 Oct 2025 20:02:42 INFO Day 63 - Test AUC: 0.8172, Test ACC: 0.2553,Test ALPR: 0.8425
+Pretrain Test AUC: 0.8088, Pretrain Test ACC: 0.2536, Pretrain Test ALPR: 0.8132
+
+Tue 14 Oct 2025 20:02:43 INFO data_size: 18564
+Tue 14 Oct 2025 20:02:43 INFO multi_pay_size: 13184
+Tue 14 Oct 2025 20:02:44 INFO Day 63 - Epoch 1 - Avg Loss: 0.5428
+Tue 14 Oct 2025 20:02:44 INFO data_size: 4097
+Tue 14 Oct 2025 20:02:44 INFO multi_pay_size: 2253
+Tue 14 Oct 2025 20:02:44 INFO Testing Day 64...
+Tue 14 Oct 2025 20:02:44 INFO Day 64 - Test AUC: 0.8197, Test ACC: 0.2460,Test ALPR: 0.8352
+Pretrain Test AUC: 0.8089, Pretrain Test ACC: 0.2665, Pretrain Test ALPR: 0.7884
+
+Tue 14 Oct 2025 20:02:44 INFO data_size: 6213
+Tue 14 Oct 2025 20:02:44 INFO multi_pay_size: 4377
+Tue 14 Oct 2025 20:02:45 INFO Day 64 - Epoch 1 - Avg Loss: 0.5173
+Tue 14 Oct 2025 20:02:45 INFO data_size: 1648
+Tue 14 Oct 2025 20:02:45 INFO multi_pay_size: 856
+Tue 14 Oct 2025 20:02:45 INFO Testing Day 65...
+Tue 14 Oct 2025 20:02:45 INFO Day 65 - Test AUC: 0.8174, Test ACC: 0.2573,Test ALPR: 0.7941
+Pretrain Test AUC: 0.8010, Pretrain Test ACC: 0.2373, Pretrain Test ALPR: 0.8368
+
+Tue 14 Oct 2025 20:02:45 INFO data_size: 2136
+Tue 14 Oct 2025 20:02:45 INFO multi_pay_size: 1461
+Tue 14 Oct 2025 20:02:46 INFO Day 65 - Epoch 1 - Avg Loss: 0.5708
+Tue 14 Oct 2025 20:02:46 INFO data_size: 8694
+Tue 14 Oct 2025 20:02:46 INFO multi_pay_size: 4518
+Tue 14 Oct 2025 20:02:46 INFO Testing Day 66...
+Tue 14 Oct 2025 20:02:47 INFO Day 66 - Test AUC: 0.8166, Test ACC: 0.2391,Test ALPR: 0.9009
+Pretrain Test AUC: 0.8055, Pretrain Test ACC: 0.2475, Pretrain Test ALPR: 0.8216
+
+Tue 14 Oct 2025 20:02:47 INFO data_size: 10490
+Tue 14 Oct 2025 20:02:47 INFO multi_pay_size: 7328
+Tue 14 Oct 2025 20:02:48 INFO Day 66 - Epoch 1 - Avg Loss: 0.5548
+Tue 14 Oct 2025 20:02:48 INFO data_size: 15448
+Tue 14 Oct 2025 20:02:48 INFO multi_pay_size: 8350
+Tue 14 Oct 2025 20:02:48 INFO Testing Day 67...
+Tue 14 Oct 2025 20:02:49 INFO Day 67 - Test AUC: 0.8147, Test ACC: 0.2433,Test ALPR: 0.8697
+Pretrain Test AUC: 0.8046, Pretrain Test ACC: 0.2510, Pretrain Test ALPR: 0.8172
+
+Tue 14 Oct 2025 20:02:49 INFO data_size: 22500
+Tue 14 Oct 2025 20:02:49 INFO multi_pay_size: 16070
+Tue 14 Oct 2025 20:02:51 INFO Day 67 - Epoch 1 - Avg Loss: 0.5512
+Tue 14 Oct 2025 20:02:51 INFO data_size: 15034
+Tue 14 Oct 2025 20:02:51 INFO multi_pay_size: 8223
+Tue 14 Oct 2025 20:02:51 INFO Testing Day 68...
+Tue 14 Oct 2025 20:02:52 INFO Day 68 - Test AUC: 0.8180, Test ACC: 0.2476,Test ALPR: 0.8308
+Pretrain Test AUC: 0.8080, Pretrain Test ACC: 0.2572, Pretrain Test ALPR: 0.8241
+
+Tue 14 Oct 2025 20:02:52 INFO data_size: 22639
+Tue 14 Oct 2025 20:02:52 INFO multi_pay_size: 16299
+Tue 14 Oct 2025 20:02:53 INFO Day 68 - Epoch 1 - Avg Loss: 0.5563
+Tue 14 Oct 2025 20:02:53 INFO data_size: 13816
+Tue 14 Oct 2025 20:02:53 INFO multi_pay_size: 7350
+Tue 14 Oct 2025 20:02:53 INFO Testing Day 69...
+Tue 14 Oct 2025 20:02:54 INFO Day 69 - Test AUC: 0.8174, Test ACC: 0.2544,Test ALPR: 0.8139
+Pretrain Test AUC: 0.8042, Pretrain Test ACC: 0.2489, Pretrain Test ALPR: 0.8217
+
+Tue 14 Oct 2025 20:02:54 INFO data_size: 21566
+Tue 14 Oct 2025 20:02:54 INFO multi_pay_size: 15420
+Tue 14 Oct 2025 20:02:55 INFO Day 69 - Epoch 1 - Avg Loss: 0.5513
+Tue 14 Oct 2025 20:02:55 INFO data_size: 10802
+Tue 14 Oct 2025 20:02:55 INFO multi_pay_size: 5812
+Tue 14 Oct 2025 20:02:55 INFO Testing Day 70...
+Tue 14 Oct 2025 20:02:56 INFO Day 70 - Test AUC: 0.8216, Test ACC: 0.2491,Test ALPR: 0.7869
+Pretrain Test AUC: 0.8089, Pretrain Test ACC: 0.2556, Pretrain Test ALPR: 0.8129
+
+Tue 14 Oct 2025 20:02:56 INFO data_size: 17698
+Tue 14 Oct 2025 20:02:56 INFO multi_pay_size: 12802
+Tue 14 Oct 2025 20:02:57 INFO Day 70 - Epoch 1 - Avg Loss: 0.5392
+Tue 14 Oct 2025 20:02:58 INFO data_size: 11193
+Tue 14 Oct 2025 20:02:58 INFO multi_pay_size: 5814
+Tue 14 Oct 2025 20:02:58 INFO Testing Day 71...
+Tue 14 Oct 2025 20:02:58 INFO Day 71 - Test AUC: 0.8222, Test ACC: 0.2641,Test ALPR: 0.7933
+Pretrain Test AUC: 0.8103, Pretrain Test ACC: 0.2535, Pretrain Test ALPR: 0.8060
+
+Tue 14 Oct 2025 20:02:59 INFO data_size: 19049
+Tue 14 Oct 2025 20:02:59 INFO multi_pay_size: 13468
+Tue 14 Oct 2025 20:03:00 INFO Day 71 - Epoch 1 - Avg Loss: 0.5284
+Tue 14 Oct 2025 20:03:00 INFO data_size: 4416
+Tue 14 Oct 2025 20:03:00 INFO multi_pay_size: 2376
+Tue 14 Oct 2025 20:03:00 INFO Testing Day 72...
+Tue 14 Oct 2025 20:03:00 INFO Day 72 - Test AUC: 0.8227, Test ACC: 0.2502,Test ALPR: 0.7757
+Pretrain Test AUC: 0.8094, Pretrain Test ACC: 0.2489, Pretrain Test ALPR: 0.7941
+
+Tue 14 Oct 2025 20:03:00 INFO data_size: 6408
+Tue 14 Oct 2025 20:03:01 INFO multi_pay_size: 4488
+Tue 14 Oct 2025 20:03:01 INFO Day 72 - Epoch 1 - Avg Loss: 0.5182
+Tue 14 Oct 2025 20:03:01 INFO data_size: 1782
+Tue 14 Oct 2025 20:03:01 INFO multi_pay_size: 930
+Tue 14 Oct 2025 20:03:01 INFO Testing Day 73...
+Tue 14 Oct 2025 20:03:02 INFO Day 73 - Test AUC: 0.8211, Test ACC: 0.2435,Test ALPR: 0.7810
+Pretrain Test AUC: 0.8078, Pretrain Test ACC: 0.2581, Pretrain Test ALPR: 0.8242
+
+Tue 14 Oct 2025 20:03:02 INFO data_size: 2149
+Tue 14 Oct 2025 20:03:02 INFO multi_pay_size: 1475
+Tue 14 Oct 2025 20:03:02 INFO Day 73 - Epoch 1 - Avg Loss: 0.5439
+Tue 14 Oct 2025 20:03:02 INFO data_size: 8869
+Tue 14 Oct 2025 20:03:02 INFO multi_pay_size: 4770
+Tue 14 Oct 2025 20:03:02 INFO Testing Day 74...
+Tue 14 Oct 2025 20:03:03 INFO Day 74 - Test AUC: 0.8204, Test ACC: 0.2443,Test ALPR: 0.8553
+Pretrain Test AUC: 0.8060, Pretrain Test ACC: 0.2375, Pretrain Test ALPR: 0.8302
+
+Tue 14 Oct 2025 20:03:03 INFO data_size: 10597
+Tue 14 Oct 2025 20:03:03 INFO multi_pay_size: 7336
+Tue 14 Oct 2025 20:03:04 INFO Day 74 - Epoch 1 - Avg Loss: 0.5320
+Tue 14 Oct 2025 20:03:04 INFO data_size: 16368
+Tue 14 Oct 2025 20:03:04 INFO multi_pay_size: 8856
+Tue 14 Oct 2025 20:03:04 INFO Testing Day 75...
+Tue 14 Oct 2025 20:03:05 INFO Day 75 - Test AUC: 0.8200, Test ACC: 0.2369,Test ALPR: 0.7843
+Pretrain Test AUC: 0.8075, Pretrain Test ACC: 0.2551, Pretrain Test ALPR: 0.8124
+
+Tue 14 Oct 2025 20:03:05 INFO data_size: 22911
+Tue 14 Oct 2025 20:03:05 INFO multi_pay_size: 16324
+Tue 14 Oct 2025 20:03:07 INFO Day 75 - Epoch 1 - Avg Loss: 0.5456
+Tue 14 Oct 2025 20:03:07 INFO data_size: 15840
+Tue 14 Oct 2025 20:03:07 INFO multi_pay_size: 8483
+Tue 14 Oct 2025 20:03:07 INFO Testing Day 76...
+Tue 14 Oct 2025 20:03:09 INFO Day 76 - Test AUC: 0.8205, Test ACC: 0.2438,Test ALPR: 0.7846
+Pretrain Test AUC: 0.8086, Pretrain Test ACC: 0.2447, Pretrain Test ALPR: 0.8209
+
+Tue 14 Oct 2025 20:03:09 INFO data_size: 23211
+Tue 14 Oct 2025 20:03:09 INFO multi_pay_size: 16529
+Tue 14 Oct 2025 20:03:10 INFO Day 76 - Epoch 1 - Avg Loss: 0.5412
+Tue 14 Oct 2025 20:03:10 INFO data_size: 15293
+Tue 14 Oct 2025 20:03:10 INFO multi_pay_size: 8266
+Tue 14 Oct 2025 20:03:10 INFO Testing Day 77...
+Tue 14 Oct 2025 20:03:11 INFO Day 77 - Test AUC: 0.8163, Test ACC: 0.2548,Test ALPR: 0.8217
+Pretrain Test AUC: 0.8021, Pretrain Test ACC: 0.2519, Pretrain Test ALPR: 0.8250
+
+Tue 14 Oct 2025 20:03:11 INFO data_size: 23523
+Tue 14 Oct 2025 20:03:11 INFO multi_pay_size: 16809
+Tue 14 Oct 2025 20:03:12 INFO Day 77 - Epoch 1 - Avg Loss: 0.5455
+Tue 14 Oct 2025 20:03:12 INFO data_size: 12258
+Tue 14 Oct 2025 20:03:12 INFO multi_pay_size: 6724
+Tue 14 Oct 2025 20:03:12 INFO Testing Day 78...
+Tue 14 Oct 2025 20:03:13 INFO Day 78 - Test AUC: 0.8205, Test ACC: 0.2460,Test ALPR: 0.8046
+Pretrain Test AUC: 0.8067, Pretrain Test ACC: 0.2502, Pretrain Test ALPR: 0.8232
+
+Tue 14 Oct 2025 20:03:13 INFO data_size: 18822
+Tue 14 Oct 2025 20:03:13 INFO multi_pay_size: 13807
+Tue 14 Oct 2025 20:03:14 INFO Day 78 - Epoch 1 - Avg Loss: 0.5366
+Tue 14 Oct 2025 20:03:14 INFO data_size: 12801
+Tue 14 Oct 2025 20:03:14 INFO multi_pay_size: 6805
+Tue 14 Oct 2025 20:03:14 INFO Testing Day 79...
+Tue 14 Oct 2025 20:03:16 INFO Day 79 - Test AUC: 0.8208, Test ACC: 0.2587,Test ALPR: 0.8217
+Pretrain Test AUC: 0.8080, Pretrain Test ACC: 0.2508, Pretrain Test ALPR: 0.8152
+
+Tue 14 Oct 2025 20:03:16 INFO data_size: 20433
+Tue 14 Oct 2025 20:03:16 INFO multi_pay_size: 14643
+Tue 14 Oct 2025 20:03:17 INFO Day 79 - Epoch 1 - Avg Loss: 0.5262
+Tue 14 Oct 2025 20:03:17 INFO data_size: 4688
+Tue 14 Oct 2025 20:03:17 INFO multi_pay_size: 2583
+Tue 14 Oct 2025 20:03:17 INFO Testing Day 80...
+Tue 14 Oct 2025 20:03:18 INFO Day 80 - Test AUC: 0.8148, Test ACC: 0.2402,Test ALPR: 0.8063
+Pretrain Test AUC: 0.8007, Pretrain Test ACC: 0.2462, Pretrain Test ALPR: 0.8180
+
+Tue 14 Oct 2025 20:03:18 INFO data_size: 6335
+Tue 14 Oct 2025 20:03:18 INFO multi_pay_size: 4480
+Tue 14 Oct 2025 20:03:19 INFO Day 80 - Epoch 1 - Avg Loss: 0.5159
+Tue 14 Oct 2025 20:03:19 INFO data_size: 1722
+Tue 14 Oct 2025 20:03:19 INFO multi_pay_size: 900
+Tue 14 Oct 2025 20:03:19 INFO Testing Day 81...
+Tue 14 Oct 2025 20:03:19 INFO Day 81 - Test AUC: 0.8199, Test ACC: 0.2456,Test ALPR: 0.8065
+Pretrain Test AUC: 0.8035, Pretrain Test ACC: 0.2567, Pretrain Test ALPR: 0.8459
+
+Tue 14 Oct 2025 20:03:19 INFO data_size: 2097
+Tue 14 Oct 2025 20:03:19 INFO multi_pay_size: 1461
+Tue 14 Oct 2025 20:03:19 INFO Day 81 - Epoch 1 - Avg Loss: 0.5261
+Tue 14 Oct 2025 20:03:20 INFO data_size: 9404
+Tue 14 Oct 2025 20:03:20 INFO multi_pay_size: 4979
+Tue 14 Oct 2025 20:03:20 INFO Testing Day 82...
+Tue 14 Oct 2025 20:03:20 INFO Day 82 - Test AUC: 0.8237, Test ACC: 0.2474,Test ALPR: 0.8277
+Pretrain Test AUC: 0.8085, Pretrain Test ACC: 0.2384, Pretrain Test ALPR: 0.8228
+
+Tue 14 Oct 2025 20:03:20 INFO data_size: 10503
+Tue 14 Oct 2025 20:03:20 INFO multi_pay_size: 7356
+Tue 14 Oct 2025 20:03:21 INFO Day 82 - Epoch 1 - Avg Loss: 0.5416
+Tue 14 Oct 2025 20:03:21 INFO data_size: 16750
+Tue 14 Oct 2025 20:03:21 INFO multi_pay_size: 9019
+Tue 14 Oct 2025 20:03:21 INFO Testing Day 83...
+Tue 14 Oct 2025 20:03:23 INFO Day 83 - Test AUC: 0.8187, Test ACC: 0.2508,Test ALPR: 0.8108
+Pretrain Test AUC: 0.8044, Pretrain Test ACC: 0.2485, Pretrain Test ALPR: 0.8182
+
+Tue 14 Oct 2025 20:03:23 INFO data_size: 23459
+Tue 14 Oct 2025 20:03:23 INFO multi_pay_size: 16752
+Tue 14 Oct 2025 20:03:24 INFO Day 83 - Epoch 1 - Avg Loss: 0.5424
+Tue 14 Oct 2025 20:03:24 INFO data_size: 17051
+Tue 14 Oct 2025 20:03:24 INFO multi_pay_size: 9247
+Tue 14 Oct 2025 20:03:24 INFO Testing Day 84...
+Tue 14 Oct 2025 20:03:25 INFO Day 84 - Test AUC: 0.8211, Test ACC: 0.2457,Test ALPR: 0.7996
+Pretrain Test AUC: 0.8058, Pretrain Test ACC: 0.2473, Pretrain Test ALPR: 0.8304
+
+Tue 14 Oct 2025 20:03:26 INFO data_size: 24013
+Tue 14 Oct 2025 20:03:26 INFO multi_pay_size: 17264
+Tue 14 Oct 2025 20:03:27 INFO Day 84 - Epoch 1 - Avg Loss: 0.5436
+Tue 14 Oct 2025 20:03:27 INFO data_size: 14820
+Tue 14 Oct 2025 20:03:27 INFO multi_pay_size: 7854
+Tue 14 Oct 2025 20:03:27 INFO Testing Day 85...
+Tue 14 Oct 2025 20:03:28 INFO Day 85 - Test AUC: 0.8240, Test ACC: 0.2582,Test ALPR: 0.8072
+Pretrain Test AUC: 0.8084, Pretrain Test ACC: 0.2473, Pretrain Test ALPR: 0.8277
+
+Tue 14 Oct 2025 20:03:28 INFO data_size: 22234
+Tue 14 Oct 2025 20:03:28 INFO multi_pay_size: 15986
+Tue 14 Oct 2025 20:03:30 INFO Day 85 - Epoch 1 - Avg Loss: 0.5482
+Tue 14 Oct 2025 20:03:30 INFO data_size: 11983
+Tue 14 Oct 2025 20:03:30 INFO multi_pay_size: 6558
+Tue 14 Oct 2025 20:03:30 INFO Testing Day 86...
+Tue 14 Oct 2025 20:03:31 INFO Day 86 - Test AUC: 0.8182, Test ACC: 0.2593,Test ALPR: 0.8000
+Pretrain Test AUC: 0.8034, Pretrain Test ACC: 0.2445, Pretrain Test ALPR: 0.8202
+
+Tue 14 Oct 2025 20:03:31 INFO data_size: 18998
+Tue 14 Oct 2025 20:03:31 INFO multi_pay_size: 14266
+Tue 14 Oct 2025 20:03:32 INFO Day 86 - Epoch 1 - Avg Loss: 0.5362
+Tue 14 Oct 2025 20:03:32 INFO data_size: 12498
+Tue 14 Oct 2025 20:03:32 INFO multi_pay_size: 6610
+Tue 14 Oct 2025 20:03:32 INFO Testing Day 87...
+Tue 14 Oct 2025 20:03:33 INFO Day 87 - Test AUC: 0.8264, Test ACC: 0.2523,Test ALPR: 0.7609
+Pretrain Test AUC: 0.8115, Pretrain Test ACC: 0.2524, Pretrain Test ALPR: 0.8019
+
+Tue 14 Oct 2025 20:03:33 INFO data_size: 20921
+Tue 14 Oct 2025 20:03:33 INFO multi_pay_size: 15186
+Tue 14 Oct 2025 20:03:34 INFO Day 87 - Epoch 1 - Avg Loss: 0.5095
+Tue 14 Oct 2025 20:03:34 INFO data_size: 4137
+Tue 14 Oct 2025 20:03:34 INFO multi_pay_size: 2230
+Tue 14 Oct 2025 20:03:34 INFO Testing Day 88...
+Tue 14 Oct 2025 20:03:35 INFO Day 88 - Test AUC: 0.8151, Test ACC: 0.2441,Test ALPR: 0.8201
+Pretrain Test AUC: 0.8021, Pretrain Test ACC: 0.2475, Pretrain Test ALPR: 0.8147
+
+Tue 14 Oct 2025 20:03:35 INFO data_size: 4421
+Tue 14 Oct 2025 20:03:35 INFO multi_pay_size: 3315
+Tue 14 Oct 2025 20:03:36 INFO Day 88 - Epoch 1 - Avg Loss: 0.5266
+Tue 14 Oct 2025 20:03:36 INFO data_size: 1794
+Tue 14 Oct 2025 20:03:36 INFO multi_pay_size: 940
+Tue 14 Oct 2025 20:03:36 INFO Testing Day 89...
+Tue 14 Oct 2025 20:03:36 INFO Day 89 - Test AUC: 0.8253, Test ACC: 0.2497,Test ALPR: 0.7813
+Pretrain Test AUC: 0.8091, Pretrain Test ACC: 0.2520, Pretrain Test ALPR: 0.8317
+
+Tue 14 Oct 2025 20:03:36 INFO data_size: 1722
+Tue 14 Oct 2025 20:03:36 INFO multi_pay_size: 1235
+Tue 14 Oct 2025 20:03:36 INFO Day 89 - Epoch 1 - Avg Loss: 0.5563
+Tue 14 Oct 2025 20:03:36 INFO data_size: 9825
+Tue 14 Oct 2025 20:03:36 INFO multi_pay_size: 5008
+Tue 14 Oct 2025 20:03:36 INFO Testing Day 90...
+Tue 14 Oct 2025 20:03:37 INFO Day 90 - Test AUC: 0.8232, Test ACC: 0.2595,Test ALPR: 0.7894
+Pretrain Test AUC: 0.8059, Pretrain Test ACC: 0.2408, Pretrain Test ALPR: 0.8200
+
+Tue 14 Oct 2025 20:03:37 INFO data_size: 8655
+Tue 14 Oct 2025 20:03:37 INFO multi_pay_size: 6227
+Tue 14 Oct 2025 20:03:39 INFO Day 90 - Epoch 1 - Avg Loss: 0.5455
+Tue 14 Oct 2025 20:03:39 INFO data_size: 16536
+Tue 14 Oct 2025 20:03:39 INFO multi_pay_size: 8769
+Tue 14 Oct 2025 20:03:39 INFO Testing Day 91...
+Tue 14 Oct 2025 20:03:40 INFO Day 91 - Test AUC: 0.8173, Test ACC: 0.2443,Test ALPR: 0.8899
+Pretrain Test AUC: 0.8035, Pretrain Test ACC: 0.2444, Pretrain Test ALPR: 0.8197
+
+Tue 14 Oct 2025 20:03:40 INFO data_size: 17645
+Tue 14 Oct 2025 20:03:40 INFO multi_pay_size: 13071
+Tue 14 Oct 2025 20:03:41 INFO Day 91 - Epoch 1 - Avg Loss: 0.5529
+Tue 14 Oct 2025 20:03:41 INFO data_size: 17003
+Tue 14 Oct 2025 20:03:41 INFO multi_pay_size: 9046
+Tue 14 Oct 2025 20:03:41 INFO Testing Day 92...
+Tue 14 Oct 2025 20:03:43 INFO Day 92 - Test AUC: 0.8208, Test ACC: 0.2492,Test ALPR: 0.8060
+Pretrain Test AUC: 0.8065, Pretrain Test ACC: 0.2489, Pretrain Test ALPR: 0.8228
+
+Tue 14 Oct 2025 20:03:43 INFO data_size: 17741
+Tue 14 Oct 2025 20:03:43 INFO multi_pay_size: 13174
+Tue 14 Oct 2025 20:03:44 INFO Day 92 - Epoch 1 - Avg Loss: 0.5579
+Tue 14 Oct 2025 20:03:44 INFO data_size: 14694
+Tue 14 Oct 2025 20:03:44 INFO multi_pay_size: 7698
+Tue 14 Oct 2025 20:03:44 INFO Testing Day 93...
+Tue 14 Oct 2025 20:03:45 INFO Day 93 - Test AUC: 0.8202, Test ACC: 0.2504,Test ALPR: 0.7737
+Pretrain Test AUC: 0.8035, Pretrain Test ACC: 0.2494, Pretrain Test ALPR: 0.8190
+
+Tue 14 Oct 2025 20:03:45 INFO data_size: 15617
+Tue 14 Oct 2025 20:03:45 INFO multi_pay_size: 11650
+Tue 14 Oct 2025 20:03:46 INFO Day 93 - Epoch 1 - Avg Loss: 0.5633
+Tue 14 Oct 2025 20:03:46 INFO data_size: 15451
+Tue 14 Oct 2025 20:03:46 INFO multi_pay_size: 7923
+Tue 14 Oct 2025 20:03:46 INFO Testing Day 94...
+Tue 14 Oct 2025 20:03:48 INFO Day 94 - Test AUC: 0.8237, Test ACC: 0.2463,Test ALPR: 0.7684
+Pretrain Test AUC: 0.8110, Pretrain Test ACC: 0.2505, Pretrain Test ALPR: 0.7993
+
+Tue 14 Oct 2025 20:03:48 INFO data_size: 44496
+Tue 14 Oct 2025 20:03:48 INFO multi_pay_size: 30862
+Tue 14 Oct 2025 20:03:50 INFO Day 94 - Epoch 1 - Avg Loss: 0.5098
+Tue 14 Oct 2025 20:03:50 INFO data_size: 14962
+Tue 14 Oct 2025 20:03:50 INFO multi_pay_size: 7054
+Tue 14 Oct 2025 20:03:50 INFO Testing Day 95...
+Tue 14 Oct 2025 20:03:52 INFO Day 95 - Test AUC: 0.8234, Test ACC: 0.2683,Test ALPR: 0.7337
+Pretrain Test AUC: 0.8085, Pretrain Test ACC: 0.2590, Pretrain Test ALPR: 0.7893
+
+Tue 14 Oct 2025 20:03:52 INFO data_size: 54054
+Tue 14 Oct 2025 20:03:52 INFO multi_pay_size: 36452
+Tue 14 Oct 2025 20:03:54 INFO Day 95 - Epoch 1 - Avg Loss: 0.5089
+Tue 14 Oct 2025 20:03:54 INFO data_size: 5093
+Tue 14 Oct 2025 20:03:54 INFO multi_pay_size: 2457
+Tue 14 Oct 2025 20:03:54 INFO Testing Day 96...
+Tue 14 Oct 2025 20:03:55 INFO Day 96 - Test AUC: 0.8209, Test ACC: 0.2708,Test ALPR: 0.7610
+Pretrain Test AUC: 0.8034, Pretrain Test ACC: 0.2492, Pretrain Test ALPR: 0.7991
+
+Tue 14 Oct 2025 20:03:55 INFO data_size: 12206
+Tue 14 Oct 2025 20:03:55 INFO multi_pay_size: 8155
+Tue 14 Oct 2025 20:03:56 INFO Day 96 - Epoch 1 - Avg Loss: 0.5092
+Tue 14 Oct 2025 20:03:56 INFO data_size: 2065
+Tue 14 Oct 2025 20:03:56 INFO multi_pay_size: 960
+Tue 14 Oct 2025 20:03:56 INFO Testing Day 97...
+Tue 14 Oct 2025 20:03:57 INFO Day 97 - Test AUC: 0.8219, Test ACC: 0.2465,Test ALPR: 0.7609
+Pretrain Test AUC: 0.8003, Pretrain Test ACC: 0.2373, Pretrain Test ALPR: 0.8402
+
+Tue 14 Oct 2025 20:03:57 INFO data_size: 3484
+Tue 14 Oct 2025 20:03:57 INFO multi_pay_size: 2316
+Tue 14 Oct 2025 20:03:58 INFO Day 97 - Epoch 1 - Avg Loss: 0.5254
+Tue 14 Oct 2025 20:03:58 INFO data_size: 10591
+Tue 14 Oct 2025 20:03:58 INFO multi_pay_size: 5064
+Tue 14 Oct 2025 20:03:58 INFO Testing Day 98...
+Tue 14 Oct 2025 20:03:58 INFO Day 98 - Test AUC: 0.8227, Test ACC: 0.2655,Test ALPR: 0.7753
+Pretrain Test AUC: 0.8047, Pretrain Test ACC: 0.2514, Pretrain Test ALPR: 0.8067
+
+Tue 14 Oct 2025 20:03:58 INFO data_size: 16341
+Tue 14 Oct 2025 20:03:58 INFO multi_pay_size: 11054
+Tue 14 Oct 2025 20:03:59 INFO Day 98 - Epoch 1 - Avg Loss: 0.5306
+Tue 14 Oct 2025 20:03:59 INFO data_size: 17918
+Tue 14 Oct 2025 20:03:59 INFO multi_pay_size: 8701
+Tue 14 Oct 2025 20:03:59 INFO Testing Day 99...
+Tue 14 Oct 2025 20:04:01 INFO Day 99 - Test AUC: 0.8177, Test ACC: 0.2639,Test ALPR: 0.7745
+Pretrain Test AUC: 0.8032, Pretrain Test ACC: 0.2491, Pretrain Test ALPR: 0.8033
+
+Tue 14 Oct 2025 20:04:01 INFO data_size: 32801
+Tue 14 Oct 2025 20:04:01 INFO multi_pay_size: 22380
+Tue 14 Oct 2025 20:04:03 INFO Day 99 - Epoch 1 - Avg Loss: 0.5308
+Tue 14 Oct 2025 20:04:03 INFO data_size: 15089
+Tue 14 Oct 2025 20:04:03 INFO multi_pay_size: 7403
+Tue 14 Oct 2025 20:04:03 INFO Testing Day 100...
+Tue 14 Oct 2025 20:04:04 INFO Day 100 - Test AUC: 0.8199, Test ACC: 0.2236,Test ALPR: 0.7867
+Pretrain Test AUC: 0.8041, Pretrain Test ACC: 0.2532, Pretrain Test ALPR: 0.8103
+
+Tue 14 Oct 2025 20:04:04 INFO data_size: 28580
+Tue 14 Oct 2025 20:04:04 INFO multi_pay_size: 19660
+Tue 14 Oct 2025 20:04:06 INFO Day 100 - Epoch 1 - Avg Loss: 0.5438
+Tue 14 Oct 2025 20:04:06 INFO data_size: 13792
+Tue 14 Oct 2025 20:04:06 INFO multi_pay_size: 6860
+Tue 14 Oct 2025 20:04:06 INFO Testing Day 101...
+Tue 14 Oct 2025 20:04:07 INFO Day 101 - Test AUC: 0.8226, Test ACC: 0.2599,Test ALPR: 0.7460
+Pretrain Test AUC: 0.8054, Pretrain Test ACC: 0.2514, Pretrain Test ALPR: 0.8046
+
+Tue 14 Oct 2025 20:04:07 INFO data_size: 25865
+Tue 14 Oct 2025 20:04:07 INFO multi_pay_size: 17797
+Tue 14 Oct 2025 20:04:09 INFO Day 101 - Epoch 1 - Avg Loss: 0.5368
+Tue 14 Oct 2025 20:04:09 INFO data_size: 11821
+Tue 14 Oct 2025 20:04:09 INFO multi_pay_size: 6002
+Tue 14 Oct 2025 20:04:09 INFO Testing Day 102...
+Tue 14 Oct 2025 20:04:10 INFO Day 102 - Test AUC: 0.8223, Test ACC: 0.2622,Test ALPR: 0.7453
+Pretrain Test AUC: 0.8052, Pretrain Test ACC: 0.2492, Pretrain Test ALPR: 0.8020
+
+Tue 14 Oct 2025 20:04:10 INFO data_size: 25195
+Tue 14 Oct 2025 20:04:10 INFO multi_pay_size: 17282
+Tue 14 Oct 2025 20:04:11 INFO Day 102 - Epoch 1 - Avg Loss: 0.5215
+Tue 14 Oct 2025 20:04:12 INFO data_size: 11789
+Tue 14 Oct 2025 20:04:12 INFO multi_pay_size: 5770
+Tue 14 Oct 2025 20:04:12 INFO Testing Day 103...
+Tue 14 Oct 2025 20:04:12 INFO Day 103 - Test AUC: 0.8238, Test ACC: 0.2724,Test ALPR: 0.7501
+Pretrain Test AUC: 0.8084, Pretrain Test ACC: 0.2458, Pretrain Test ALPR: 0.8026
+
+Tue 14 Oct 2025 20:04:12 INFO data_size: 30668
+Tue 14 Oct 2025 20:04:12 INFO multi_pay_size: 20403
+Tue 14 Oct 2025 20:04:14 INFO Day 103 - Epoch 1 - Avg Loss: 0.5106
+Tue 14 Oct 2025 20:04:14 INFO data_size: 3969
+Tue 14 Oct 2025 20:04:14 INFO multi_pay_size: 2059
+Tue 14 Oct 2025 20:04:14 INFO Testing Day 104...
+Tue 14 Oct 2025 20:04:15 INFO Day 104 - Test AUC: 0.8201, Test ACC: 0.2706,Test ALPR: 0.7645
+Pretrain Test AUC: 0.8004, Pretrain Test ACC: 0.2499, Pretrain Test ALPR: 0.8174
+
+Tue 14 Oct 2025 20:04:15 INFO data_size: 6523
+Tue 14 Oct 2025 20:04:15 INFO multi_pay_size: 4509
+Tue 14 Oct 2025 20:04:16 INFO Day 104 - Epoch 1 - Avg Loss: 0.5181
+Tue 14 Oct 2025 20:04:16 INFO data_size: 1611
+Tue 14 Oct 2025 20:04:16 INFO multi_pay_size: 805
+Tue 14 Oct 2025 20:04:16 INFO Testing Day 105...
+Tue 14 Oct 2025 20:04:16 INFO Day 105 - Test AUC: 0.8193, Test ACC: 0.2439,Test ALPR: 0.7918
+Pretrain Test AUC: 0.7984, Pretrain Test ACC: 0.2315, Pretrain Test ALPR: 0.8547
+
+Tue 14 Oct 2025 20:04:16 INFO data_size: 2060
+Tue 14 Oct 2025 20:04:16 INFO multi_pay_size: 1379
+Tue 14 Oct 2025 20:04:17 INFO Day 105 - Epoch 1 - Avg Loss: 0.6356
+Tue 14 Oct 2025 20:04:17 INFO data_size: 8724
+Tue 14 Oct 2025 20:04:17 INFO multi_pay_size: 4518
+Tue 14 Oct 2025 20:04:17 INFO Testing Day 106...
+Tue 14 Oct 2025 20:04:18 INFO Day 106 - Test AUC: 0.8224, Test ACC: 0.2327,Test ALPR: 0.7722
+Pretrain Test AUC: 0.8022, Pretrain Test ACC: 0.2471, Pretrain Test ALPR: 0.8331
+
+Tue 14 Oct 2025 20:04:18 INFO data_size: 10731
+Tue 14 Oct 2025 20:04:18 INFO multi_pay_size: 7468
+Tue 14 Oct 2025 20:04:19 INFO Day 106 - Epoch 1 - Avg Loss: 0.5417
+Tue 14 Oct 2025 20:04:19 INFO data_size: 15602
+Tue 14 Oct 2025 20:04:19 INFO multi_pay_size: 8332
+Tue 14 Oct 2025 20:04:19 INFO Testing Day 107...
+Tue 14 Oct 2025 20:04:20 INFO Day 107 - Test AUC: 0.8164, Test ACC: 0.2561,Test ALPR: 0.8351
+Pretrain Test AUC: 0.7996, Pretrain Test ACC: 0.2473, Pretrain Test ALPR: 0.8252
+
+Tue 14 Oct 2025 20:04:20 INFO data_size: 23574
+Tue 14 Oct 2025 20:04:20 INFO multi_pay_size: 16541
+Tue 14 Oct 2025 20:04:21 INFO Day 107 - Epoch 1 - Avg Loss: 0.5313
+Tue 14 Oct 2025 20:04:21 INFO data_size: 13902
+Tue 14 Oct 2025 20:04:21 INFO multi_pay_size: 7266
+Tue 14 Oct 2025 20:04:21 INFO Testing Day 108...
+Tue 14 Oct 2025 20:04:22 INFO Day 108 - Test AUC: 0.8197, Test ACC: 0.2656,Test ALPR: 0.8268
+Pretrain Test AUC: 0.8025, Pretrain Test ACC: 0.2531, Pretrain Test ALPR: 0.8270
+
+Tue 14 Oct 2025 20:04:22 INFO data_size: 21933
+Tue 14 Oct 2025 20:04:22 INFO multi_pay_size: 15478
+Tue 14 Oct 2025 20:04:24 INFO Day 108 - Epoch 1 - Avg Loss: 0.5451
+Tue 14 Oct 2025 20:04:24 INFO data_size: 12941
+Tue 14 Oct 2025 20:04:24 INFO multi_pay_size: 6775
+Tue 14 Oct 2025 20:04:24 INFO Testing Day 109...
+Tue 14 Oct 2025 20:04:25 INFO Day 109 - Test AUC: 0.8180, Test ACC: 0.2637,Test ALPR: 0.7945
+Pretrain Test AUC: 0.7973, Pretrain Test ACC: 0.2435, Pretrain Test ALPR: 0.8395
+
+Tue 14 Oct 2025 20:04:25 INFO data_size: 21051
+Tue 14 Oct 2025 20:04:25 INFO multi_pay_size: 14797
+Tue 14 Oct 2025 20:04:26 INFO Day 109 - Epoch 1 - Avg Loss: 0.5473
+Tue 14 Oct 2025 20:04:26 INFO data_size: 11055
+Tue 14 Oct 2025 20:04:26 INFO multi_pay_size: 5929
+Tue 14 Oct 2025 20:04:26 INFO Testing Day 110...
+Tue 14 Oct 2025 20:04:27 INFO Day 110 - Test AUC: 0.8207, Test ACC: 0.2667,Test ALPR: 0.7776
+Pretrain Test AUC: 0.8023, Pretrain Test ACC: 0.2527, Pretrain Test ALPR: 0.8184
+
+Tue 14 Oct 2025 20:04:27 INFO data_size: 19056
+Tue 14 Oct 2025 20:04:27 INFO multi_pay_size: 13714
+Tue 14 Oct 2025 20:04:28 INFO Day 110 - Epoch 1 - Avg Loss: 0.5237
+Tue 14 Oct 2025 20:04:28 INFO data_size: 11031
+Tue 14 Oct 2025 20:04:28 INFO multi_pay_size: 5650
+Tue 14 Oct 2025 20:04:28 INFO Testing Day 111...
+Tue 14 Oct 2025 20:04:30 INFO Day 111 - Test AUC: 0.8240, Test ACC: 0.2610,Test ALPR: 0.7530
+Pretrain Test AUC: 0.8023, Pretrain Test ACC: 0.2489, Pretrain Test ALPR: 0.8198
+
+Tue 14 Oct 2025 20:04:30 INFO data_size: 20198
+Tue 14 Oct 2025 20:04:30 INFO multi_pay_size: 14152
+Tue 14 Oct 2025 20:04:31 INFO Day 111 - Epoch 1 - Avg Loss: 0.5179
+Tue 14 Oct 2025 20:04:31 INFO data_size: 3748
+Tue 14 Oct 2025 20:04:31 INFO multi_pay_size: 1932
+Tue 14 Oct 2025 20:04:31 INFO Testing Day 112...
+Tue 14 Oct 2025 20:04:31 INFO Day 112 - Test AUC: 0.8189, Test ACC: 0.2599,Test ALPR: 0.7520
+Pretrain Test AUC: 0.7993, Pretrain Test ACC: 0.2588, Pretrain Test ALPR: 0.7980
+
+Tue 14 Oct 2025 20:04:31 INFO data_size: 5951
+Tue 14 Oct 2025 20:04:31 INFO multi_pay_size: 4034
+Tue 14 Oct 2025 20:04:32 INFO Day 112 - Epoch 1 - Avg Loss: 0.4993
+Tue 14 Oct 2025 20:04:32 INFO data_size: 1575
+Tue 14 Oct 2025 20:04:32 INFO multi_pay_size: 793
+Tue 14 Oct 2025 20:04:32 INFO Testing Day 113...
+Tue 14 Oct 2025 20:04:32 INFO Day 113 - Test AUC: 0.8091, Test ACC: 0.2451,Test ALPR: 0.8120
+Pretrain Test AUC: 0.7910, Pretrain Test ACC: 0.2337, Pretrain Test ALPR: 0.8564
+
+Tue 14 Oct 2025 20:04:32 INFO data_size: 2053
+Tue 14 Oct 2025 20:04:32 INFO multi_pay_size: 1387
+Tue 14 Oct 2025 20:04:33 INFO Day 113 - Epoch 1 - Avg Loss: 0.4936
+Tue 14 Oct 2025 20:04:33 INFO data_size: 9046
+Tue 14 Oct 2025 20:04:33 INFO multi_pay_size: 4713
+Tue 14 Oct 2025 20:04:33 INFO Testing Day 114...
+Tue 14 Oct 2025 20:04:34 INFO Day 114 - Test AUC: 0.8249, Test ACC: 0.2326,Test ALPR: 0.7796
+Pretrain Test AUC: 0.8018, Pretrain Test ACC: 0.2394, Pretrain Test ALPR: 0.8378
+
+Tue 14 Oct 2025 20:04:34 INFO data_size: 11117
+Tue 14 Oct 2025 20:04:34 INFO multi_pay_size: 7614
+Tue 14 Oct 2025 20:04:34 INFO Day 114 - Epoch 1 - Avg Loss: 0.5552
+Tue 14 Oct 2025 20:04:34 INFO data_size: 15172
+Tue 14 Oct 2025 20:04:34 INFO multi_pay_size: 8054
+Tue 14 Oct 2025 20:04:34 INFO Testing Day 115...
+Tue 14 Oct 2025 20:04:35 INFO Day 115 - Test AUC: 0.8184, Test ACC: 0.2452,Test ALPR: 0.8054
+Pretrain Test AUC: 0.8003, Pretrain Test ACC: 0.2468, Pretrain Test ALPR: 0.8319
+
+Tue 14 Oct 2025 20:04:36 INFO data_size: 23700
+Tue 14 Oct 2025 20:04:36 INFO multi_pay_size: 16698
+Tue 14 Oct 2025 20:04:37 INFO Day 115 - Epoch 1 - Avg Loss: 0.5464
+Tue 14 Oct 2025 20:04:37 INFO data_size: 13692
+Tue 14 Oct 2025 20:04:37 INFO multi_pay_size: 7348
+Tue 14 Oct 2025 20:04:37 INFO Testing Day 116...
+Tue 14 Oct 2025 20:04:38 INFO Day 116 - Test AUC: 0.8169, Test ACC: 0.2492,Test ALPR: 0.8026
+Pretrain Test AUC: 0.8000, Pretrain Test ACC: 0.2470, Pretrain Test ALPR: 0.8431
+
+Tue 14 Oct 2025 20:04:38 INFO data_size: 22223
+Tue 14 Oct 2025 20:04:38 INFO multi_pay_size: 15753
+Tue 14 Oct 2025 20:04:39 INFO Day 116 - Epoch 1 - Avg Loss: 0.5386
+Tue 14 Oct 2025 20:04:39 INFO data_size: 12250
+Tue 14 Oct 2025 20:04:39 INFO multi_pay_size: 6601
+Tue 14 Oct 2025 20:04:39 INFO Testing Day 117...
+Tue 14 Oct 2025 20:04:41 INFO Day 117 - Test AUC: 0.8226, Test ACC: 0.2518,Test ALPR: 0.8616
+Pretrain Test AUC: 0.8016, Pretrain Test ACC: 0.2454, Pretrain Test ALPR: 0.8509
+
+Tue 14 Oct 2025 20:04:41 INFO data_size: 20793
+Tue 14 Oct 2025 20:04:41 INFO multi_pay_size: 14815
+Tue 14 Oct 2025 20:04:42 INFO Day 117 - Epoch 1 - Avg Loss: 0.5528
+Tue 14 Oct 2025 20:04:42 INFO data_size: 10591
+Tue 14 Oct 2025 20:04:42 INFO multi_pay_size: 5651
+Tue 14 Oct 2025 20:04:42 INFO Testing Day 118...
+Tue 14 Oct 2025 20:04:43 INFO Day 118 - Test AUC: 0.8278, Test ACC: 0.2604,Test ALPR: 0.8049
+Pretrain Test AUC: 0.8064, Pretrain Test ACC: 0.2419, Pretrain Test ALPR: 0.8494
+
+Tue 14 Oct 2025 20:04:43 INFO data_size: 17744
+Tue 14 Oct 2025 20:04:43 INFO multi_pay_size: 12909
+Tue 14 Oct 2025 20:04:44 INFO Day 118 - Epoch 1 - Avg Loss: 0.5484
+Tue 14 Oct 2025 20:04:44 INFO data_size: 10316
+Tue 14 Oct 2025 20:04:44 INFO multi_pay_size: 5280
+Tue 14 Oct 2025 20:04:44 INFO Testing Day 119...
+Tue 14 Oct 2025 20:04:45 INFO Day 119 - Test AUC: 0.8170, Test ACC: 0.2556,Test ALPR: 0.7576
+Pretrain Test AUC: 0.7973, Pretrain Test ACC: 0.2510, Pretrain Test ALPR: 0.8121
+
+Tue 14 Oct 2025 20:04:45 INFO data_size: 18272
+Tue 14 Oct 2025 20:04:45 INFO multi_pay_size: 12817
+Tue 14 Oct 2025 20:04:46 INFO Day 119 - Epoch 1 - Avg Loss: 0.5227
+Tue 14 Oct 2025 20:04:46 INFO data_size: 3916
+Tue 14 Oct 2025 20:04:46 INFO multi_pay_size: 2058
+Tue 14 Oct 2025 20:04:46 INFO Testing Day 120...
+Tue 14 Oct 2025 20:04:46 INFO Day 120 - Test AUC: 0.8196, Test ACC: 0.2487,Test ALPR: 0.7829
+Pretrain Test AUC: 0.7972, Pretrain Test ACC: 0.2554, Pretrain Test ALPR: 0.8129
+
+Tue 14 Oct 2025 20:04:46 INFO data_size: 6144
+Tue 14 Oct 2025 20:04:47 INFO multi_pay_size: 4206
+Tue 14 Oct 2025 20:04:47 INFO Day 120 - Epoch 1 - Avg Loss: 0.5066
+Tue 14 Oct 2025 20:04:47 INFO data_size: 1601
+Tue 14 Oct 2025 20:04:47 INFO multi_pay_size: 836
+Tue 14 Oct 2025 20:04:47 INFO Testing Day 121...
+Tue 14 Oct 2025 20:04:48 INFO Day 121 - Test AUC: 0.8218, Test ACC: 0.2536,Test ALPR: 0.7973
+Pretrain Test AUC: 0.8012, Pretrain Test ACC: 0.2286, Pretrain Test ALPR: 0.8359
+
+Tue 14 Oct 2025 20:04:48 INFO data_size: 2130
+Tue 14 Oct 2025 20:04:48 INFO multi_pay_size: 1470
+Tue 14 Oct 2025 20:04:48 INFO Day 121 - Epoch 1 - Avg Loss: 0.5218
+Tue 14 Oct 2025 20:04:48 INFO data_size: 7484
+Tue 14 Oct 2025 20:04:48 INFO multi_pay_size: 3920
+Tue 14 Oct 2025 20:04:48 INFO Testing Day 122...
+Tue 14 Oct 2025 20:04:49 INFO Day 122 - Test AUC: 0.8202, Test ACC: 0.2596,Test ALPR: 0.7890
+Pretrain Test AUC: 0.7955, Pretrain Test ACC: 0.2382, Pretrain Test ALPR: 0.8440
+
+Tue 14 Oct 2025 20:04:49 INFO data_size: 9704
+Tue 14 Oct 2025 20:04:49 INFO multi_pay_size: 6816
+Tue 14 Oct 2025 20:04:49 INFO Day 122 - Epoch 1 - Avg Loss: 0.5281
+Tue 14 Oct 2025 20:04:49 INFO data_size: 13662
+Tue 14 Oct 2025 20:04:49 INFO multi_pay_size: 7323
+Tue 14 Oct 2025 20:04:49 INFO Testing Day 123...
+Tue 14 Oct 2025 20:04:51 INFO Day 123 - Test AUC: 0.8227, Test ACC: 0.2547,Test ALPR: 0.7888
+Pretrain Test AUC: 0.8019, Pretrain Test ACC: 0.2525, Pretrain Test ALPR: 0.8200
+
+Tue 14 Oct 2025 20:04:51 INFO data_size: 21098
+Tue 14 Oct 2025 20:04:51 INFO multi_pay_size: 14940
+Tue 14 Oct 2025 20:04:52 INFO Day 123 - Epoch 1 - Avg Loss: 0.5259
+Tue 14 Oct 2025 20:04:52 INFO data_size: 13403
+Tue 14 Oct 2025 20:04:52 INFO multi_pay_size: 7162
+Tue 14 Oct 2025 20:04:52 INFO Testing Day 124...
+Tue 14 Oct 2025 20:04:53 INFO Day 124 - Test AUC: 0.8222, Test ACC: 0.2585,Test ALPR: 0.7646
+Pretrain Test AUC: 0.8037, Pretrain Test ACC: 0.2541, Pretrain Test ALPR: 0.8136
+
+Tue 14 Oct 2025 20:04:53 INFO data_size: 21110
+Tue 14 Oct 2025 20:04:53 INFO multi_pay_size: 15042
+Tue 14 Oct 2025 20:04:54 INFO Day 124 - Epoch 1 - Avg Loss: 0.5353
+Tue 14 Oct 2025 20:04:54 INFO data_size: 12676
+Tue 14 Oct 2025 20:04:54 INFO multi_pay_size: 6684
+Tue 14 Oct 2025 20:04:54 INFO Testing Day 125...
+Tue 14 Oct 2025 20:04:55 INFO Day 125 - Test AUC: 0.8270, Test ACC: 0.2668,Test ALPR: 0.7779
+Pretrain Test AUC: 0.8037, Pretrain Test ACC: 0.2506, Pretrain Test ALPR: 0.8398
+
+Tue 14 Oct 2025 20:04:55 INFO data_size: 20999
+Tue 14 Oct 2025 20:04:55 INFO multi_pay_size: 14918
+Tue 14 Oct 2025 20:04:56 INFO Day 125 - Epoch 1 - Avg Loss: 0.5369
+Tue 14 Oct 2025 20:04:56 INFO data_size: 10329
+Tue 14 Oct 2025 20:04:56 INFO multi_pay_size: 5663
+Tue 14 Oct 2025 20:04:56 INFO Testing Day 126...
+Tue 14 Oct 2025 20:04:57 INFO Day 126 - Test AUC: 0.8262, Test ACC: 0.2532,Test ALPR: 0.7642
+Pretrain Test AUC: 0.8048, Pretrain Test ACC: 0.2496, Pretrain Test ALPR: 0.8303
+
+Tue 14 Oct 2025 20:04:57 INFO data_size: 17496
+Tue 14 Oct 2025 20:04:57 INFO multi_pay_size: 12575
+Tue 14 Oct 2025 20:04:58 INFO Day 126 - Epoch 1 - Avg Loss: 0.5222
+Tue 14 Oct 2025 20:04:58 INFO data_size: 11173
+Tue 14 Oct 2025 20:04:58 INFO multi_pay_size: 5839
+Tue 14 Oct 2025 20:04:58 INFO Testing Day 127...
+Tue 14 Oct 2025 20:04:59 INFO Day 127 - Test AUC: 0.8297, Test ACC: 0.2685,Test ALPR: 0.7414
+Pretrain Test AUC: 0.8089, Pretrain Test ACC: 0.2504, Pretrain Test ALPR: 0.7992
+
+Tue 14 Oct 2025 20:04:59 INFO data_size: 19423
+Tue 14 Oct 2025 20:04:59 INFO multi_pay_size: 13557
+Tue 14 Oct 2025 20:05:00 INFO Day 127 - Epoch 1 - Avg Loss: 0.5041
+Tue 14 Oct 2025 20:05:00 INFO data_size: 4125
+Tue 14 Oct 2025 20:05:00 INFO multi_pay_size: 2281
+Tue 14 Oct 2025 20:05:00 INFO Testing Day 128...
+Tue 14 Oct 2025 20:05:01 INFO Day 128 - Test AUC: 0.8250, Test ACC: 0.2521,Test ALPR: 0.7835
+Pretrain Test AUC: 0.8038, Pretrain Test ACC: 0.2555, Pretrain Test ALPR: 0.8125
+
+Tue 14 Oct 2025 20:05:01 INFO data_size: 6396
+Tue 14 Oct 2025 20:05:01 INFO multi_pay_size: 4538
+Tue 14 Oct 2025 20:05:02 INFO Day 128 - Epoch 1 - Avg Loss: 0.5127
+Tue 14 Oct 2025 20:05:02 INFO data_size: 1539
+Tue 14 Oct 2025 20:05:02 INFO multi_pay_size: 777
+Tue 14 Oct 2025 20:05:02 INFO Testing Day 129...
+Tue 14 Oct 2025 20:05:02 INFO Day 129 - Test AUC: 0.8240, Test ACC: 0.2417,Test ALPR: 0.7556
+Pretrain Test AUC: 0.8004, Pretrain Test ACC: 0.2255, Pretrain Test ALPR: 0.8430
+
+Tue 14 Oct 2025 20:05:02 INFO data_size: 1977
+Tue 14 Oct 2025 20:05:02 INFO multi_pay_size: 1308
+Tue 14 Oct 2025 20:05:03 INFO Day 129 - Epoch 1 - Avg Loss: 0.4832
+Tue 14 Oct 2025 20:05:03 INFO data_size: 8091
+Tue 14 Oct 2025 20:05:03 INFO multi_pay_size: 4240
+Tue 14 Oct 2025 20:05:03 INFO Testing Day 130...
+Tue 14 Oct 2025 20:05:03 INFO Day 130 - Test AUC: 0.8240, Test ACC: 0.2656,Test ALPR: 0.7897
+Pretrain Test AUC: 0.8044, Pretrain Test ACC: 0.2445, Pretrain Test ALPR: 0.8210
+
+Tue 14 Oct 2025 20:05:03 INFO data_size: 9647
+Tue 14 Oct 2025 20:05:03 INFO multi_pay_size: 6692
+Tue 14 Oct 2025 20:05:04 INFO Day 130 - Epoch 1 - Avg Loss: 0.5173
+Tue 14 Oct 2025 20:05:04 INFO data_size: 14557
+Tue 14 Oct 2025 20:05:04 INFO multi_pay_size: 7908
+Tue 14 Oct 2025 20:05:04 INFO Testing Day 131...
+Tue 14 Oct 2025 20:05:06 INFO Day 131 - Test AUC: 0.8239, Test ACC: 0.2584,Test ALPR: 0.8183
+Pretrain Test AUC: 0.8036, Pretrain Test ACC: 0.2526, Pretrain Test ALPR: 0.8208
+
+Tue 14 Oct 2025 20:05:06 INFO data_size: 21445
+Tue 14 Oct 2025 20:05:06 INFO multi_pay_size: 15294
+Tue 14 Oct 2025 20:05:07 INFO Day 131 - Epoch 1 - Avg Loss: 0.5243
+Tue 14 Oct 2025 20:05:07 INFO data_size: 13664
+Tue 14 Oct 2025 20:05:07 INFO multi_pay_size: 7486
+Tue 14 Oct 2025 20:05:07 INFO Testing Day 132...
+Tue 14 Oct 2025 20:05:08 INFO Day 132 - Test AUC: 0.8231, Test ACC: 0.2579,Test ALPR: 0.7730
+Pretrain Test AUC: 0.8026, Pretrain Test ACC: 0.2577, Pretrain Test ALPR: 0.8180
+
+Tue 14 Oct 2025 20:05:08 INFO data_size: 21118
+Tue 14 Oct 2025 20:05:08 INFO multi_pay_size: 15019
+Tue 14 Oct 2025 20:05:09 INFO Day 132 - Epoch 1 - Avg Loss: 0.5302
+Tue 14 Oct 2025 20:05:10 INFO data_size: 13135
+Tue 14 Oct 2025 20:05:10 INFO multi_pay_size: 7222
+Tue 14 Oct 2025 20:05:10 INFO Testing Day 133...
+Tue 14 Oct 2025 20:05:11 INFO Day 133 - Test AUC: 0.8242, Test ACC: 0.2559,Test ALPR: 0.7791
+Pretrain Test AUC: 0.8021, Pretrain Test ACC: 0.2520, Pretrain Test ALPR: 0.8230
+
+Tue 14 Oct 2025 20:05:11 INFO data_size: 21226
+Tue 14 Oct 2025 20:05:11 INFO multi_pay_size: 15301
+Tue 14 Oct 2025 20:05:12 INFO Day 133 - Epoch 1 - Avg Loss: 0.5273
+Tue 14 Oct 2025 20:05:12 INFO data_size: 10901
+Tue 14 Oct 2025 20:05:12 INFO multi_pay_size: 5997
+Tue 14 Oct 2025 20:05:12 INFO Testing Day 134...
+Tue 14 Oct 2025 20:05:13 INFO Day 134 - Test AUC: 0.8260, Test ACC: 0.2463,Test ALPR: 0.7645
+Pretrain Test AUC: 0.8037, Pretrain Test ACC: 0.2414, Pretrain Test ALPR: 0.8363
+
+Tue 14 Oct 2025 20:05:13 INFO data_size: 18315
+Tue 14 Oct 2025 20:05:13 INFO multi_pay_size: 13298
+Tue 14 Oct 2025 20:05:14 INFO Day 134 - Epoch 1 - Avg Loss: 0.5191
+Tue 14 Oct 2025 20:05:14 INFO data_size: 11898
+Tue 14 Oct 2025 20:05:14 INFO multi_pay_size: 6309
+Tue 14 Oct 2025 20:05:14 INFO Testing Day 135...
+Tue 14 Oct 2025 20:05:15 INFO Day 135 - Test AUC: 0.8288, Test ACC: 0.2626,Test ALPR: 0.7654
+Pretrain Test AUC: 0.8065, Pretrain Test ACC: 0.2506, Pretrain Test ALPR: 0.8111
+
+Tue 14 Oct 2025 20:05:15 INFO data_size: 20467
+Tue 14 Oct 2025 20:05:15 INFO multi_pay_size: 14453
+Tue 14 Oct 2025 20:05:16 INFO Day 135 - Epoch 1 - Avg Loss: 0.5042
+Tue 14 Oct 2025 20:05:16 INFO data_size: 4161
+Tue 14 Oct 2025 20:05:16 INFO multi_pay_size: 2220
+Tue 14 Oct 2025 20:05:16 INFO Testing Day 136...
+Tue 14 Oct 2025 20:05:17 INFO Day 136 - Test AUC: 0.8224, Test ACC: 0.2569,Test ALPR: 0.7672
+Pretrain Test AUC: 0.8022, Pretrain Test ACC: 0.2487, Pretrain Test ALPR: 0.8057
+
+Tue 14 Oct 2025 20:05:17 INFO data_size: 6540
+Tue 14 Oct 2025 20:05:17 INFO multi_pay_size: 4561
+Tue 14 Oct 2025 20:05:17 INFO Day 136 - Epoch 1 - Avg Loss: 0.4922
+Tue 14 Oct 2025 20:05:17 INFO data_size: 1435
+Tue 14 Oct 2025 20:05:17 INFO multi_pay_size: 741
+Tue 14 Oct 2025 20:05:17 INFO Testing Day 137...
+Tue 14 Oct 2025 20:05:18 INFO Day 137 - Test AUC: 0.8312, Test ACC: 0.2585,Test ALPR: 0.7713
+Pretrain Test AUC: 0.8006, Pretrain Test ACC: 0.2641, Pretrain Test ALPR: 0.8497
+
+Tue 14 Oct 2025 20:05:18 INFO data_size: 2032
+Tue 14 Oct 2025 20:05:18 INFO multi_pay_size: 1408
+Tue 14 Oct 2025 20:05:18 INFO Day 137 - Epoch 1 - Avg Loss: 0.5103
+Tue 14 Oct 2025 20:05:18 INFO data_size: 7918
+Tue 14 Oct 2025 20:05:18 INFO multi_pay_size: 4214
+Tue 14 Oct 2025 20:05:18 INFO Testing Day 138...
+Tue 14 Oct 2025 20:05:19 INFO Day 138 - Test AUC: 0.8261, Test ACC: 0.2569,Test ALPR: 0.7846
+Pretrain Test AUC: 0.8033, Pretrain Test ACC: 0.2402, Pretrain Test ALPR: 0.8385
+
+Tue 14 Oct 2025 20:05:19 INFO data_size: 9737
+Tue 14 Oct 2025 20:05:19 INFO multi_pay_size: 6872
+Tue 14 Oct 2025 20:05:20 INFO Day 138 - Epoch 1 - Avg Loss: 0.5187
+Tue 14 Oct 2025 20:05:20 INFO data_size: 15325
+Tue 14 Oct 2025 20:05:20 INFO multi_pay_size: 8493
+Tue 14 Oct 2025 20:05:20 INFO Testing Day 139...
+Tue 14 Oct 2025 20:05:21 INFO Day 139 - Test AUC: 0.8245, Test ACC: 0.2638,Test ALPR: 0.8054
+Pretrain Test AUC: 0.8032, Pretrain Test ACC: 0.2459, Pretrain Test ALPR: 0.8278
+
+Tue 14 Oct 2025 20:05:21 INFO data_size: 22979
+Tue 14 Oct 2025 20:05:21 INFO multi_pay_size: 16460
+Tue 14 Oct 2025 20:05:23 INFO Day 139 - Epoch 1 - Avg Loss: 0.5273
+Tue 14 Oct 2025 20:05:23 INFO data_size: 14575
+Tue 14 Oct 2025 20:05:23 INFO multi_pay_size: 7976
+Tue 14 Oct 2025 20:05:23 INFO Testing Day 140...
+Tue 14 Oct 2025 20:05:24 INFO Day 140 - Test AUC: 0.8265, Test ACC: 0.2662,Test ALPR: 0.8067
+Pretrain Test AUC: 0.8033, Pretrain Test ACC: 0.2465, Pretrain Test ALPR: 0.8267
+
+Tue 14 Oct 2025 20:05:24 INFO data_size: 22850
+Tue 14 Oct 2025 20:05:24 INFO multi_pay_size: 16467
+Tue 14 Oct 2025 20:05:25 INFO Day 140 - Epoch 1 - Avg Loss: 0.5294
+Tue 14 Oct 2025 20:05:26 INFO data_size: 13527
+Tue 14 Oct 2025 20:05:26 INFO multi_pay_size: 7359
+Tue 14 Oct 2025 20:05:26 INFO Testing Day 141...
+Tue 14 Oct 2025 20:05:26 INFO Day 141 - Test AUC: 0.8257, Test ACC: 0.2655,Test ALPR: 0.7840
+Pretrain Test AUC: 0.8035, Pretrain Test ACC: 0.2491, Pretrain Test ALPR: 0.8252
+
+Tue 14 Oct 2025 20:05:27 INFO data_size: 21684
+Tue 14 Oct 2025 20:05:27 INFO multi_pay_size: 15549
+Tue 14 Oct 2025 20:05:28 INFO Day 141 - Epoch 1 - Avg Loss: 0.5326
+Tue 14 Oct 2025 20:05:28 INFO data_size: 11474
+Tue 14 Oct 2025 20:05:28 INFO multi_pay_size: 6355
+Tue 14 Oct 2025 20:05:28 INFO Testing Day 142...
+Tue 14 Oct 2025 20:05:29 INFO Day 142 - Test AUC: 0.8269, Test ACC: 0.2532,Test ALPR: 0.7664
+Pretrain Test AUC: 0.8047, Pretrain Test ACC: 0.2580, Pretrain Test ALPR: 0.8275
+
+Tue 14 Oct 2025 20:05:29 INFO data_size: 19265
+Tue 14 Oct 2025 20:05:29 INFO multi_pay_size: 14218
+Tue 14 Oct 2025 20:05:30 INFO Day 142 - Epoch 1 - Avg Loss: 0.5209
+Tue 14 Oct 2025 20:05:30 INFO data_size: 12079
+Tue 14 Oct 2025 20:05:30 INFO multi_pay_size: 6393
+Tue 14 Oct 2025 20:05:30 INFO Testing Day 143...
+Tue 14 Oct 2025 20:05:31 INFO Day 143 - Test AUC: 0.8291, Test ACC: 0.2545,Test ALPR: 0.7475
+Pretrain Test AUC: 0.8060, Pretrain Test ACC: 0.2480, Pretrain Test ALPR: 0.8211
+
+Tue 14 Oct 2025 20:05:31 INFO data_size: 20774
+Tue 14 Oct 2025 20:05:31 INFO multi_pay_size: 14794
+Tue 14 Oct 2025 20:05:32 INFO Day 143 - Epoch 1 - Avg Loss: 0.5073
+Tue 14 Oct 2025 20:05:32 INFO data_size: 4176
+Tue 14 Oct 2025 20:05:33 INFO multi_pay_size: 2276
+Tue 14 Oct 2025 20:05:33 INFO Testing Day 144...
+Tue 14 Oct 2025 20:05:33 INFO Day 144 - Test AUC: 0.8257, Test ACC: 0.2598,Test ALPR: 0.7632
+Pretrain Test AUC: 0.8025, Pretrain Test ACC: 0.2610, Pretrain Test ALPR: 0.7947
+
+Tue 14 Oct 2025 20:05:33 INFO data_size: 6357
+Tue 14 Oct 2025 20:05:33 INFO multi_pay_size: 4504
+Tue 14 Oct 2025 20:05:34 INFO Day 144 - Epoch 1 - Avg Loss: 0.4841
+Tue 14 Oct 2025 20:05:34 INFO data_size: 1666
+Tue 14 Oct 2025 20:05:34 INFO multi_pay_size: 884
+Tue 14 Oct 2025 20:05:34 INFO Testing Day 145...
+Tue 14 Oct 2025 20:05:34 INFO Day 145 - Test AUC: 0.8304, Test ACC: 0.2629,Test ALPR: 0.7639
+Pretrain Test AUC: 0.8069, Pretrain Test ACC: 0.2467, Pretrain Test ALPR: 0.8320
+
+Tue 14 Oct 2025 20:05:34 INFO data_size: 2072
+Tue 14 Oct 2025 20:05:34 INFO multi_pay_size: 1452
+Tue 14 Oct 2025 20:05:34 INFO Day 145 - Epoch 1 - Avg Loss: 0.5732
+Tue 14 Oct 2025 20:05:35 INFO data_size: 9357
+Tue 14 Oct 2025 20:05:35 INFO multi_pay_size: 5006
+Tue 14 Oct 2025 20:05:35 INFO Testing Day 146...
+Tue 14 Oct 2025 20:05:36 INFO Day 146 - Test AUC: 0.8292, Test ACC: 0.2382,Test ALPR: 0.7557
+Pretrain Test AUC: 0.8051, Pretrain Test ACC: 0.2383, Pretrain Test ALPR: 0.8341
+
+Tue 14 Oct 2025 20:05:36 INFO data_size: 10933
+Tue 14 Oct 2025 20:05:36 INFO multi_pay_size: 7737
+Tue 14 Oct 2025 20:05:36 INFO Day 146 - Epoch 1 - Avg Loss: 0.5272
+Tue 14 Oct 2025 20:05:36 INFO data_size: 16717
+Tue 14 Oct 2025 20:05:36 INFO multi_pay_size: 9230
+Tue 14 Oct 2025 20:05:36 INFO Testing Day 147...
+Tue 14 Oct 2025 20:05:37 INFO Day 147 - Test AUC: 0.8256, Test ACC: 0.2581,Test ALPR: 0.8017
+Pretrain Test AUC: 0.8029, Pretrain Test ACC: 0.2414, Pretrain Test ALPR: 0.8289
+
+Tue 14 Oct 2025 20:05:38 INFO data_size: 24961
+Tue 14 Oct 2025 20:05:38 INFO multi_pay_size: 17858
+Tue 14 Oct 2025 20:05:39 INFO Day 147 - Epoch 1 - Avg Loss: 0.5193
+Tue 14 Oct 2025 20:05:39 INFO data_size: 15584
+Tue 14 Oct 2025 20:05:39 INFO multi_pay_size: 8619
+Tue 14 Oct 2025 20:05:39 INFO Testing Day 148...
+Tue 14 Oct 2025 20:05:40 INFO Day 148 - Test AUC: 0.8269, Test ACC: 0.2630,Test ALPR: 0.7678
+Pretrain Test AUC: 0.8051, Pretrain Test ACC: 0.2573, Pretrain Test ALPR: 0.8271
+
+Tue 14 Oct 2025 20:05:40 INFO data_size: 23868
+Tue 14 Oct 2025 20:05:40 INFO multi_pay_size: 17251
+Tue 14 Oct 2025 20:05:41 INFO Day 148 - Epoch 1 - Avg Loss: 0.5242
+Tue 14 Oct 2025 20:05:41 INFO data_size: 13553
+Tue 14 Oct 2025 20:05:41 INFO multi_pay_size: 7499
+Tue 14 Oct 2025 20:05:41 INFO Testing Day 149...
+Tue 14 Oct 2025 20:05:42 INFO Day 149 - Test AUC: 0.8262, Test ACC: 0.2566,Test ALPR: 0.7895
+Pretrain Test AUC: 0.8038, Pretrain Test ACC: 0.2461, Pretrain Test ALPR: 0.8250
+
+Tue 14 Oct 2025 20:05:43 INFO data_size: 22088
+Tue 14 Oct 2025 20:05:43 INFO multi_pay_size: 16014
+Tue 14 Oct 2025 20:05:44 INFO Day 149 - Epoch 1 - Avg Loss: 0.5248
+Tue 14 Oct 2025 20:05:44 INFO data_size: 11776
+Tue 14 Oct 2025 20:05:44 INFO multi_pay_size: 6594
+Tue 14 Oct 2025 20:05:44 INFO Testing Day 150...
+Tue 14 Oct 2025 20:05:45 INFO Day 150 - Test AUC: 0.8263, Test ACC: 0.2525,Test ALPR: 0.7594
+Pretrain Test AUC: 0.8020, Pretrain Test ACC: 0.2455, Pretrain Test ALPR: 0.8249
+
+Tue 14 Oct 2025 20:05:45 INFO data_size: 20136
+Tue 14 Oct 2025 20:05:45 INFO multi_pay_size: 14799
+Tue 14 Oct 2025 20:05:46 INFO Day 150 - Epoch 1 - Avg Loss: 0.5180
+Tue 14 Oct 2025 20:05:46 INFO data_size: 12385
+Tue 14 Oct 2025 20:05:46 INFO multi_pay_size: 6789
+Tue 14 Oct 2025 20:05:46 INFO Testing Day 151...
+Tue 14 Oct 2025 20:05:47 INFO Day 151 - Test AUC: 0.8295, Test ACC: 0.2662,Test ALPR: 0.7741
+Pretrain Test AUC: 0.8083, Pretrain Test ACC: 0.2488, Pretrain Test ALPR: 0.8115
+
+Tue 14 Oct 2025 20:05:47 INFO data_size: 21593
+Tue 14 Oct 2025 20:05:47 INFO multi_pay_size: 15575
+Tue 14 Oct 2025 20:05:48 INFO Day 151 - Epoch 1 - Avg Loss: 0.5069
+Tue 14 Oct 2025 20:05:48 INFO data_size: 4290
+Tue 14 Oct 2025 20:05:48 INFO multi_pay_size: 2417
+Tue 14 Oct 2025 20:05:48 INFO Testing Day 152...
+Tue 14 Oct 2025 20:05:49 INFO Day 152 - Test AUC: 0.8279, Test ACC: 0.2578,Test ALPR: 0.7766
+Pretrain Test AUC: 0.8041, Pretrain Test ACC: 0.2340, Pretrain Test ALPR: 0.8283
+
+Tue 14 Oct 2025 20:05:49 INFO data_size: 6514
+Tue 14 Oct 2025 20:05:49 INFO multi_pay_size: 4717
+Tue 14 Oct 2025 20:05:49 INFO Day 152 - Epoch 1 - Avg Loss: 0.5070
+Tue 14 Oct 2025 20:05:49 INFO data_size: 1682
+Tue 14 Oct 2025 20:05:49 INFO multi_pay_size: 907
+Tue 14 Oct 2025 20:05:49 INFO Testing Day 153...
+Tue 14 Oct 2025 20:05:50 INFO Day 153 - Test AUC: 0.8209, Test ACC: 0.2485,Test ALPR: 0.8193
+Pretrain Test AUC: 0.7904, Pretrain Test ACC: 0.2099, Pretrain Test ALPR: 0.8934
+
+Tue 14 Oct 2025 20:05:50 INFO data_size: 2139
+Tue 14 Oct 2025 20:05:50 INFO multi_pay_size: 1515
+Tue 14 Oct 2025 20:05:50 INFO Day 153 - Epoch 1 - Avg Loss: 0.5103
+Tue 14 Oct 2025 20:05:50 INFO data_size: 9755
+Tue 14 Oct 2025 20:05:50 INFO multi_pay_size: 5174
+Tue 14 Oct 2025 20:05:50 INFO Testing Day 154...
+Tue 14 Oct 2025 20:05:51 INFO Day 154 - Test AUC: 0.8282, Test ACC: 0.2656,Test ALPR: 0.8006
+Pretrain Test AUC: 0.8020, Pretrain Test ACC: 0.2443, Pretrain Test ALPR: 0.8296
+
+Tue 14 Oct 2025 20:05:51 INFO data_size: 11557
+Tue 14 Oct 2025 20:05:51 INFO multi_pay_size: 8045
+Tue 14 Oct 2025 20:05:52 INFO Day 154 - Epoch 1 - Avg Loss: 0.5075
+Tue 14 Oct 2025 20:05:52 INFO data_size: 17558
+Tue 14 Oct 2025 20:05:52 INFO multi_pay_size: 9687
+Tue 14 Oct 2025 20:05:52 INFO Testing Day 155...
+Tue 14 Oct 2025 20:05:53 INFO Day 155 - Test AUC: 0.8262, Test ACC: 0.2529,Test ALPR: 0.7588
+Pretrain Test AUC: 0.8018, Pretrain Test ACC: 0.2498, Pretrain Test ALPR: 0.8242
+
+Tue 14 Oct 2025 20:05:53 INFO data_size: 25214
+Tue 14 Oct 2025 20:05:53 INFO multi_pay_size: 18047
+Tue 14 Oct 2025 20:05:55 INFO Day 155 - Epoch 1 - Avg Loss: 0.5205
+Tue 14 Oct 2025 20:05:55 INFO data_size: 16427
+Tue 14 Oct 2025 20:05:55 INFO multi_pay_size: 9131
+Tue 14 Oct 2025 20:05:55 INFO Testing Day 156...
+Tue 14 Oct 2025 20:05:56 INFO Day 156 - Test AUC: 0.8242, Test ACC: 0.2643,Test ALPR: 0.7836
+Pretrain Test AUC: 0.8004, Pretrain Test ACC: 0.2469, Pretrain Test ALPR: 0.8404
+
+Tue 14 Oct 2025 20:05:56 INFO data_size: 24494
+Tue 14 Oct 2025 20:05:56 INFO multi_pay_size: 17822
+Tue 14 Oct 2025 20:05:57 INFO Day 156 - Epoch 1 - Avg Loss: 0.5267
+Tue 14 Oct 2025 20:05:57 INFO data_size: 14205
+Tue 14 Oct 2025 20:05:57 INFO multi_pay_size: 7783
+Tue 14 Oct 2025 20:05:57 INFO Testing Day 157...
+Tue 14 Oct 2025 20:05:58 INFO Day 157 - Test AUC: 0.8320, Test ACC: 0.2679,Test ALPR: 0.7655
+Pretrain Test AUC: 0.8068, Pretrain Test ACC: 0.2475, Pretrain Test ALPR: 0.8241
+
+Tue 14 Oct 2025 20:05:58 INFO data_size: 22480
+Tue 14 Oct 2025 20:05:58 INFO multi_pay_size: 16229
+Tue 14 Oct 2025 20:06:00 INFO Day 157 - Epoch 1 - Avg Loss: 0.5291
+Tue 14 Oct 2025 20:06:00 INFO data_size: 12234
+Tue 14 Oct 2025 20:06:00 INFO multi_pay_size: 6901
+Tue 14 Oct 2025 20:06:00 INFO Testing Day 158...
+Tue 14 Oct 2025 20:06:01 INFO Day 158 - Test AUC: 0.8277, Test ACC: 0.2502,Test ALPR: 0.7653
+Pretrain Test AUC: 0.8008, Pretrain Test ACC: 0.2448, Pretrain Test ALPR: 0.8353
+
+Tue 14 Oct 2025 20:06:01 INFO data_size: 19767
+Tue 14 Oct 2025 20:06:01 INFO multi_pay_size: 14863
+Tue 14 Oct 2025 20:06:02 INFO Day 158 - Epoch 1 - Avg Loss: 0.5201
+Tue 14 Oct 2025 20:06:02 INFO data_size: 12837
+Tue 14 Oct 2025 20:06:02 INFO multi_pay_size: 6980
+Tue 14 Oct 2025 20:06:02 INFO Testing Day 159...
+Tue 14 Oct 2025 20:06:03 INFO Day 159 - Test AUC: 0.8297, Test ACC: 0.2623,Test ALPR: 0.7631
+Pretrain Test AUC: 0.8057, Pretrain Test ACC: 0.2564, Pretrain Test ALPR: 0.8246
+
+Tue 14 Oct 2025 20:06:03 INFO data_size: 21529
+Tue 14 Oct 2025 20:06:03 INFO multi_pay_size: 15620
+Tue 14 Oct 2025 20:06:04 INFO Day 159 - Epoch 1 - Avg Loss: 0.5108
+Tue 14 Oct 2025 20:06:04 INFO data_size: 4449
+Tue 14 Oct 2025 20:06:04 INFO multi_pay_size: 2455
+Tue 14 Oct 2025 20:06:04 INFO Testing Day 160...
+Tue 14 Oct 2025 20:06:05 INFO Day 160 - Test AUC: 0.8291, Test ACC: 0.2562,Test ALPR: 0.7918
+Pretrain Test AUC: 0.8026, Pretrain Test ACC: 0.2463, Pretrain Test ALPR: 0.8248
+
+Tue 14 Oct 2025 20:06:05 INFO data_size: 6591
+Tue 14 Oct 2025 20:06:05 INFO multi_pay_size: 4741
+Tue 14 Oct 2025 20:06:05 INFO Day 160 - Epoch 1 - Avg Loss: 0.4945
+Tue 14 Oct 2025 20:06:05 INFO data_size: 1779
+Tue 14 Oct 2025 20:06:05 INFO multi_pay_size: 956
+Tue 14 Oct 2025 20:06:05 INFO Testing Day 161...
+Tue 14 Oct 2025 20:06:06 INFO Day 161 - Test AUC: 0.8186, Test ACC: 0.2462,Test ALPR: 0.8105
+Pretrain Test AUC: 0.7912, Pretrain Test ACC: 0.2299, Pretrain Test ALPR: 0.8617
+
+Tue 14 Oct 2025 20:06:06 INFO data_size: 2275
+Tue 14 Oct 2025 20:06:06 INFO multi_pay_size: 1589
+Tue 14 Oct 2025 20:06:06 INFO Day 161 - Epoch 1 - Avg Loss: 0.5232
+Tue 14 Oct 2025 20:06:06 INFO data_size: 9868
+Tue 14 Oct 2025 20:06:06 INFO multi_pay_size: 5292
+Tue 14 Oct 2025 20:06:06 INFO Testing Day 162...
+Tue 14 Oct 2025 20:06:07 INFO Day 162 - Test AUC: 0.8275, Test ACC: 0.2570,Test ALPR: 0.7932
+Pretrain Test AUC: 0.8021, Pretrain Test ACC: 0.2457, Pretrain Test ALPR: 0.8378
+
+Tue 14 Oct 2025 20:06:07 INFO data_size: 11606
+Tue 14 Oct 2025 20:06:07 INFO multi_pay_size: 8321
+Tue 14 Oct 2025 20:06:08 INFO Day 162 - Epoch 1 - Avg Loss: 0.5200
+Tue 14 Oct 2025 20:06:08 INFO data_size: 17884
+Tue 14 Oct 2025 20:06:08 INFO multi_pay_size: 9824
+Tue 14 Oct 2025 20:06:08 INFO Testing Day 163...
+Tue 14 Oct 2025 20:06:09 INFO Day 163 - Test AUC: 0.8260, Test ACC: 0.2554,Test ALPR: 0.7841
+Pretrain Test AUC: 0.8037, Pretrain Test ACC: 0.2416, Pretrain Test ALPR: 0.8228
+
+Tue 14 Oct 2025 20:06:09 INFO data_size: 25268
+Tue 14 Oct 2025 20:06:09 INFO multi_pay_size: 18340
+Tue 14 Oct 2025 20:06:10 INFO Day 163 - Epoch 1 - Avg Loss: 0.5176
+Tue 14 Oct 2025 20:06:10 INFO data_size: 16166
+Tue 14 Oct 2025 20:06:10 INFO multi_pay_size: 8898
+Tue 14 Oct 2025 20:06:10 INFO Testing Day 164...
+Tue 14 Oct 2025 20:06:11 INFO Day 164 - Test AUC: 0.8274, Test ACC: 0.2554,Test ALPR: 0.7594
+Pretrain Test AUC: 0.8041, Pretrain Test ACC: 0.2472, Pretrain Test ALPR: 0.8171
+
+Tue 14 Oct 2025 20:06:12 INFO data_size: 23223
+Tue 14 Oct 2025 20:06:12 INFO multi_pay_size: 16908
+Tue 14 Oct 2025 20:06:13 INFO Day 164 - Epoch 1 - Avg Loss: 0.5114
+Tue 14 Oct 2025 20:06:13 INFO data_size: 14405
+Tue 14 Oct 2025 20:06:13 INFO multi_pay_size: 7940
+Tue 14 Oct 2025 20:06:13 INFO Testing Day 165...
+Tue 14 Oct 2025 20:06:14 INFO Day 165 - Test AUC: 0.8315, Test ACC: 0.2603,Test ALPR: 0.7583
+Pretrain Test AUC: 0.8055, Pretrain Test ACC: 0.2512, Pretrain Test ALPR: 0.8253
+
+Tue 14 Oct 2025 20:06:14 INFO data_size: 21915
+Tue 14 Oct 2025 20:06:14 INFO multi_pay_size: 16036
+Tue 14 Oct 2025 20:06:15 INFO Day 165 - Epoch 1 - Avg Loss: 0.5174
+Tue 14 Oct 2025 20:06:15 INFO data_size: 12656
+Tue 14 Oct 2025 20:06:15 INFO multi_pay_size: 7134
+Tue 14 Oct 2025 20:06:15 INFO Testing Day 166...
+Tue 14 Oct 2025 20:06:16 INFO Day 166 - Test AUC: 0.8308, Test ACC: 0.2577,Test ALPR: 0.7716
+Pretrain Test AUC: 0.8035, Pretrain Test ACC: 0.2442, Pretrain Test ALPR: 0.8349
+
+Tue 14 Oct 2025 20:06:16 INFO data_size: 19397
+Tue 14 Oct 2025 20:06:16 INFO multi_pay_size: 14719
+Tue 14 Oct 2025 20:06:17 INFO Day 166 - Epoch 1 - Avg Loss: 0.5176
+Tue 14 Oct 2025 20:06:17 INFO data_size: 13179
+Tue 14 Oct 2025 20:06:17 INFO multi_pay_size: 7237
+Tue 14 Oct 2025 20:06:17 INFO Testing Day 167...
+Tue 14 Oct 2025 20:06:18 INFO Day 167 - Test AUC: 0.8280, Test ACC: 0.2572,Test ALPR: 0.7575
+Pretrain Test AUC: 0.8036, Pretrain Test ACC: 0.2467, Pretrain Test ALPR: 0.8226
+
+Tue 14 Oct 2025 20:06:18 INFO data_size: 21319
+Tue 14 Oct 2025 20:06:18 INFO multi_pay_size: 15984
+Tue 14 Oct 2025 20:06:19 INFO Day 167 - Epoch 1 - Avg Loss: 0.4972
+Tue 14 Oct 2025 20:06:19 INFO data_size: 4716
+Tue 14 Oct 2025 20:06:19 INFO multi_pay_size: 2333
+Tue 14 Oct 2025 20:06:19 INFO Testing Day 168...
+Tue 14 Oct 2025 20:06:20 INFO Day 168 - Test AUC: 0.8256, Test ACC: 0.2778,Test ALPR: 0.7507
+Pretrain Test AUC: 0.8037, Pretrain Test ACC: 0.2506, Pretrain Test ALPR: 0.8000
+
+Tue 14 Oct 2025 20:06:20 INFO data_size: 12283
+Tue 14 Oct 2025 20:06:20 INFO multi_pay_size: 8646
+Tue 14 Oct 2025 20:06:21 INFO Day 168 - Epoch 1 - Avg Loss: 0.5115
+Tue 14 Oct 2025 20:06:21 INFO data_size: 1963
+Tue 14 Oct 2025 20:06:21 INFO multi_pay_size: 963
+Tue 14 Oct 2025 20:06:21 INFO Testing Day 169...
+Tue 14 Oct 2025 20:06:21 INFO Day 169 - Test AUC: 0.8324, Test ACC: 0.2639,Test ALPR: 0.7422
+Pretrain Test AUC: 0.8040, Pretrain Test ACC: 0.2338, Pretrain Test ALPR: 0.8429
+
+Tue 14 Oct 2025 20:06:21 INFO data_size: 3396
+Tue 14 Oct 2025 20:06:21 INFO multi_pay_size: 2354
+Tue 14 Oct 2025 20:06:22 INFO Day 169 - Epoch 1 - Avg Loss: 0.5397
+Tue 14 Oct 2025 20:06:22 INFO data_size: 10763
+Tue 14 Oct 2025 20:06:22 INFO multi_pay_size: 5248
+Tue 14 Oct 2025 20:06:22 INFO Testing Day 170...
+Tue 14 Oct 2025 20:06:23 INFO Day 170 - Test AUC: 0.8328, Test ACC: 0.2351,Test ALPR: 0.7385
+Pretrain Test AUC: 0.8090, Pretrain Test ACC: 0.2463, Pretrain Test ALPR: 0.8205
+
+Tue 14 Oct 2025 20:06:23 INFO data_size: 17510
+Tue 14 Oct 2025 20:06:23 INFO multi_pay_size: 12206
+Tue 14 Oct 2025 20:06:24 INFO Day 170 - Epoch 1 - Avg Loss: 0.5160
+Tue 14 Oct 2025 20:06:24 INFO data_size: 17441
+Tue 14 Oct 2025 20:06:24 INFO multi_pay_size: 8883
+Tue 14 Oct 2025 20:06:24 INFO Testing Day 171...
+Tue 14 Oct 2025 20:06:25 INFO Day 171 - Test AUC: 0.8283, Test ACC: 0.2581,Test ALPR: 0.7618
+Pretrain Test AUC: 0.8053, Pretrain Test ACC: 0.2418, Pretrain Test ALPR: 0.8215
+
+Tue 14 Oct 2025 20:06:25 INFO data_size: 34567
+Tue 14 Oct 2025 20:06:25 INFO multi_pay_size: 24350
+Tue 14 Oct 2025 20:06:27 INFO Day 171 - Epoch 1 - Avg Loss: 0.5223
+Tue 14 Oct 2025 20:06:27 INFO data_size: 16041
+Tue 14 Oct 2025 20:06:27 INFO multi_pay_size: 8226
+Tue 14 Oct 2025 20:06:27 INFO Testing Day 172...
+Tue 14 Oct 2025 20:06:28 INFO Day 172 - Test AUC: 0.8276, Test ACC: 0.2610,Test ALPR: 0.7440
+Pretrain Test AUC: 0.8036, Pretrain Test ACC: 0.2513, Pretrain Test ALPR: 0.8271
+
+Tue 14 Oct 2025 20:06:28 INFO data_size: 30272
+Tue 14 Oct 2025 20:06:28 INFO multi_pay_size: 21562
+Tue 14 Oct 2025 20:06:29 INFO Day 172 - Epoch 1 - Avg Loss: 0.5294
+Tue 14 Oct 2025 20:06:30 INFO data_size: 13244
+Tue 14 Oct 2025 20:06:30 INFO multi_pay_size: 6724
+Tue 14 Oct 2025 20:06:30 INFO Testing Day 173...
+Tue 14 Oct 2025 20:06:30 INFO Day 173 - Test AUC: 0.8307, Test ACC: 0.2660,Test ALPR: 0.7459
+Pretrain Test AUC: 0.8041, Pretrain Test ACC: 0.2412, Pretrain Test ALPR: 0.8262
+
+Tue 14 Oct 2025 20:06:31 INFO data_size: 25704
+Tue 14 Oct 2025 20:06:31 INFO multi_pay_size: 18304
+Tue 14 Oct 2025 20:06:32 INFO Day 173 - Epoch 1 - Avg Loss: 0.5280
+Tue 14 Oct 2025 20:06:32 INFO data_size: 11068
+Tue 14 Oct 2025 20:06:32 INFO multi_pay_size: 5663
+Tue 14 Oct 2025 20:06:32 INFO Testing Day 174...
+Tue 14 Oct 2025 20:06:33 INFO Day 174 - Test AUC: 0.8291, Test ACC: 0.2653,Test ALPR: 0.7503
+Pretrain Test AUC: 0.8040, Pretrain Test ACC: 0.2407, Pretrain Test ALPR: 0.8240
+
+Tue 14 Oct 2025 20:06:33 INFO data_size: 25128
+Tue 14 Oct 2025 20:06:33 INFO multi_pay_size: 17433
+Tue 14 Oct 2025 20:06:34 INFO Day 174 - Epoch 1 - Avg Loss: 0.5121
+Tue 14 Oct 2025 20:06:34 INFO data_size: 12027
+Tue 14 Oct 2025 20:06:34 INFO multi_pay_size: 5974
+Tue 14 Oct 2025 20:06:34 INFO Testing Day 175...
+Tue 14 Oct 2025 20:06:35 INFO Day 175 - Test AUC: 0.8307, Test ACC: 0.2622,Test ALPR: 0.7543
+Pretrain Test AUC: 0.8092, Pretrain Test ACC: 0.2399, Pretrain Test ALPR: 0.8179
+
+Tue 14 Oct 2025 20:06:35 INFO data_size: 27398
+Tue 14 Oct 2025 20:06:35 INFO multi_pay_size: 18631
+Tue 14 Oct 2025 20:06:36 INFO Day 175 - Epoch 1 - Avg Loss: 0.4989
+Tue 14 Oct 2025 20:06:36 INFO data_size: 4154
+Tue 14 Oct 2025 20:06:36 INFO multi_pay_size: 2108
+Tue 14 Oct 2025 20:06:36 INFO Testing Day 176...
+Tue 14 Oct 2025 20:06:37 INFO Day 176 - Test AUC: 0.8195, Test ACC: 0.2496,Test ALPR: 0.7716
+Pretrain Test AUC: 0.7918, Pretrain Test ACC: 0.2313, Pretrain Test ALPR: 0.8582
+
+Tue 14 Oct 2025 20:06:37 INFO data_size: 8307
+Tue 14 Oct 2025 20:06:37 INFO multi_pay_size: 5621
+Tue 14 Oct 2025 20:06:37 INFO Day 176 - Epoch 1 - Avg Loss: 0.5034
+Tue 14 Oct 2025 20:06:37 INFO data_size: 1666
+Tue 14 Oct 2025 20:06:37 INFO multi_pay_size: 814
+Tue 14 Oct 2025 20:06:37 INFO Testing Day 177...
+Tue 14 Oct 2025 20:06:38 INFO Day 177 - Test AUC: 0.8317, Test ACC: 0.2377,Test ALPR: 0.7456
+Pretrain Test AUC: 0.8058, Pretrain Test ACC: 0.2389, Pretrain Test ALPR: 0.8414
+
+Tue 14 Oct 2025 20:06:38 INFO data_size: 2521
+Tue 14 Oct 2025 20:06:38 INFO multi_pay_size: 1658
+Tue 14 Oct 2025 20:06:38 INFO Day 177 - Epoch 1 - Avg Loss: 0.5180
+Tue 14 Oct 2025 20:06:38 INFO data_size: 8214
+Tue 14 Oct 2025 20:06:38 INFO multi_pay_size: 3995
+Tue 14 Oct 2025 20:06:38 INFO Testing Day 178...
+Tue 14 Oct 2025 20:06:39 INFO Day 178 - Test AUC: 0.8285, Test ACC: 0.2767,Test ALPR: 0.7650
+Pretrain Test AUC: 0.8022, Pretrain Test ACC: 0.2459, Pretrain Test ALPR: 0.8282
+
+Tue 14 Oct 2025 20:06:39 INFO data_size: 11783
+Tue 14 Oct 2025 20:06:39 INFO multi_pay_size: 8001
+Tue 14 Oct 2025 20:06:40 INFO Day 178 - Epoch 1 - Avg Loss: 0.5116
+Tue 14 Oct 2025 20:06:40 INFO data_size: 15048
+Tue 14 Oct 2025 20:06:40 INFO multi_pay_size: 7662
+Tue 14 Oct 2025 20:06:40 INFO Testing Day 179...
+Tue 14 Oct 2025 20:06:41 INFO Day 179 - Test AUC: 0.8270, Test ACC: 0.2642,Test ALPR: 0.7681
+Pretrain Test AUC: 0.8030, Pretrain Test ACC: 0.2503, Pretrain Test ALPR: 0.8222
+
+Tue 14 Oct 2025 20:06:41 INFO data_size: 26385
+Tue 14 Oct 2025 20:06:41 INFO multi_pay_size: 18471
+Tue 14 Oct 2025 20:06:42 INFO Day 179 - Epoch 1 - Avg Loss: 0.5223
+Tue 14 Oct 2025 20:06:42 INFO data_size: 14137
+Tue 14 Oct 2025 20:06:42 INFO multi_pay_size: 7227
+Tue 14 Oct 2025 20:06:42 INFO Testing Day 180...
+Tue 14 Oct 2025 20:06:43 INFO Day 180 - Test AUC: 0.8290, Test ACC: 0.2646,Test ALPR: 0.7437
+Pretrain Test AUC: 0.8023, Pretrain Test ACC: 0.2477, Pretrain Test ALPR: 0.8403
+
+Tue 14 Oct 2025 20:06:43 INFO data_size: 25495
+Tue 14 Oct 2025 20:06:43 INFO multi_pay_size: 18055
+Tue 14 Oct 2025 20:06:44 INFO Day 180 - Epoch 1 - Avg Loss: 0.5262
+Tue 14 Oct 2025 20:06:44 INFO data_size: 12864
+Tue 14 Oct 2025 20:06:44 INFO multi_pay_size: 6459
+Tue 14 Oct 2025 20:06:44 INFO Testing Day 181...
+Tue 14 Oct 2025 20:06:45 INFO Day 181 - Test AUC: 0.8279, Test ACC: 0.2655,Test ALPR: 0.7509
+Pretrain Test AUC: 0.8007, Pretrain Test ACC: 0.2446, Pretrain Test ALPR: 0.8432
+
+Tue 14 Oct 2025 20:06:45 INFO data_size: 24116
+Tue 14 Oct 2025 20:06:45 INFO multi_pay_size: 16774
+Tue 14 Oct 2025 20:06:46 INFO Day 181 - Epoch 1 - Avg Loss: 0.5262
+Tue 14 Oct 2025 20:06:46 INFO data_size: 10602
+Tue 14 Oct 2025 20:06:46 INFO multi_pay_size: 5539
+Tue 14 Oct 2025 20:06:46 INFO Testing Day 182...
+Tue 14 Oct 2025 20:06:47 INFO Day 182 - Test AUC: 0.8333, Test ACC: 0.2618,Test ALPR: 0.7407
+Pretrain Test AUC: 0.8079, Pretrain Test ACC: 0.2518, Pretrain Test ALPR: 0.8196
+
+Tue 14 Oct 2025 20:06:48 INFO data_size: 20914
+Tue 14 Oct 2025 20:06:48 INFO multi_pay_size: 14991
+Tue 14 Oct 2025 20:06:48 INFO Day 182 - Epoch 1 - Avg Loss: 0.5198
+Tue 14 Oct 2025 20:06:48 INFO data_size: 11565
+Tue 14 Oct 2025 20:06:48 INFO multi_pay_size: 5674
+Tue 14 Oct 2025 20:06:48 INFO Testing Day 183...
+Tue 14 Oct 2025 20:06:49 INFO Day 183 - Test AUC: 0.8304, Test ACC: 0.2703,Test ALPR: 0.7318
+Pretrain Test AUC: 0.8033, Pretrain Test ACC: 0.2475, Pretrain Test ALPR: 0.8215
+
+Tue 14 Oct 2025 20:06:49 INFO data_size: 26469
+Tue 14 Oct 2025 20:06:49 INFO multi_pay_size: 17597
+Tue 14 Oct 2025 20:06:50 INFO Day 183 - Epoch 1 - Avg Loss: 0.5004
+Tue 14 Oct 2025 20:06:50 INFO data_size: 4007
+Tue 14 Oct 2025 20:06:51 INFO multi_pay_size: 2179
+Tue 14 Oct 2025 20:06:51 INFO Testing Day 184...
+Tue 14 Oct 2025 20:06:51 INFO Day 184 - Test AUC: 0.8275, Test ACC: 0.2478,Test ALPR: 0.7269
+Pretrain Test AUC: 0.8007, Pretrain Test ACC: 0.2436, Pretrain Test ALPR: 0.8190
+
+Tue 14 Oct 2025 20:06:51 INFO data_size: 6237
+Tue 14 Oct 2025 20:06:51 INFO multi_pay_size: 4339
+Tue 14 Oct 2025 20:06:52 INFO Day 184 - Epoch 1 - Avg Loss: 0.5023
+Tue 14 Oct 2025 20:06:52 INFO data_size: 1383
+Tue 14 Oct 2025 20:06:52 INFO multi_pay_size: 707
+Tue 14 Oct 2025 20:06:52 INFO Testing Day 185...
+Tue 14 Oct 2025 20:06:52 INFO Day 185 - Test AUC: 0.8298, Test ACC: 0.2827,Test ALPR: 0.7335
+Pretrain Test AUC: 0.8031, Pretrain Test ACC: 0.2531, Pretrain Test ALPR: 0.8044
+
+Tue 14 Oct 2025 20:06:52 INFO data_size: 1763
+Tue 14 Oct 2025 20:06:52 INFO multi_pay_size: 1196
+Tue 14 Oct 2025 20:06:53 INFO Day 185 - Epoch 1 - Avg Loss: 0.5039
+Tue 14 Oct 2025 20:06:53 INFO data_size: 7103
+Tue 14 Oct 2025 20:06:53 INFO multi_pay_size: 3701
+Tue 14 Oct 2025 20:06:53 INFO Testing Day 186...
+Tue 14 Oct 2025 20:06:53 INFO Day 186 - Test AUC: 0.8211, Test ACC: 0.2469,Test ALPR: 0.7590
+Pretrain Test AUC: 0.7911, Pretrain Test ACC: 0.2426, Pretrain Test ALPR: 0.8542
+
+Tue 14 Oct 2025 20:06:53 INFO data_size: 8719
+Tue 14 Oct 2025 20:06:53 INFO multi_pay_size: 6017
+Tue 14 Oct 2025 20:06:54 INFO Day 186 - Epoch 1 - Avg Loss: 0.5251
+Tue 14 Oct 2025 20:06:54 INFO data_size: 13172
+Tue 14 Oct 2025 20:06:54 INFO multi_pay_size: 7095
+Tue 14 Oct 2025 20:06:54 INFO Testing Day 187...
+Tue 14 Oct 2025 20:06:55 INFO Day 187 - Test AUC: 0.8270, Test ACC: 0.2432,Test ALPR: 0.7442
+Pretrain Test AUC: 0.8025, Pretrain Test ACC: 0.2436, Pretrain Test ALPR: 0.8236
+
+Tue 14 Oct 2025 20:06:55 INFO data_size: 20012
+Tue 14 Oct 2025 20:06:55 INFO multi_pay_size: 14296
+Tue 14 Oct 2025 20:06:56 INFO Day 187 - Epoch 1 - Avg Loss: 0.5216
+Tue 14 Oct 2025 20:06:56 INFO data_size: 13156
+Tue 14 Oct 2025 20:06:56 INFO multi_pay_size: 7301
+Tue 14 Oct 2025 20:06:56 INFO Testing Day 188...
+Tue 14 Oct 2025 20:06:57 INFO Day 188 - Test AUC: 0.8253, Test ACC: 0.2546,Test ALPR: 0.7619
+Pretrain Test AUC: 0.7983, Pretrain Test ACC: 0.2482, Pretrain Test ALPR: 0.8427
+
+Tue 14 Oct 2025 20:06:57 INFO data_size: 20470
+Tue 14 Oct 2025 20:06:57 INFO multi_pay_size: 14855
+Tue 14 Oct 2025 20:06:58 INFO Day 188 - Epoch 1 - Avg Loss: 0.5279
+Tue 14 Oct 2025 20:06:58 INFO data_size: 12462
+Tue 14 Oct 2025 20:06:58 INFO multi_pay_size: 6663
+Tue 14 Oct 2025 20:06:58 INFO Testing Day 189...
+Tue 14 Oct 2025 20:07:00 INFO Day 189 - Test AUC: 0.8286, Test ACC: 0.2760,Test ALPR: 0.7608
+Pretrain Test AUC: 0.8011, Pretrain Test ACC: 0.2505, Pretrain Test ALPR: 0.8312
+
+Tue 14 Oct 2025 20:07:00 INFO data_size: 20551
+Tue 14 Oct 2025 20:07:00 INFO multi_pay_size: 14661
+Tue 14 Oct 2025 20:07:01 INFO Day 189 - Epoch 1 - Avg Loss: 0.5242
+Tue 14 Oct 2025 20:07:01 INFO data_size: 10694
+Tue 14 Oct 2025 20:07:01 INFO multi_pay_size: 5733
+Tue 14 Oct 2025 20:07:01 INFO Testing Day 190...
+Tue 14 Oct 2025 20:07:02 INFO Day 190 - Test AUC: 0.8333, Test ACC: 0.2716,Test ALPR: 0.7335
+Pretrain Test AUC: 0.8062, Pretrain Test ACC: 0.2487, Pretrain Test ALPR: 0.8157
+
+Tue 14 Oct 2025 20:07:02 INFO data_size: 17447
+Tue 14 Oct 2025 20:07:02 INFO multi_pay_size: 12751
+Tue 14 Oct 2025 20:07:03 INFO Day 190 - Epoch 1 - Avg Loss: 0.5152
+Tue 14 Oct 2025 20:07:03 INFO data_size: 11242
+Tue 14 Oct 2025 20:07:03 INFO multi_pay_size: 5929
+Tue 14 Oct 2025 20:07:03 INFO Testing Day 191...
+Tue 14 Oct 2025 20:07:04 INFO Day 191 - Test AUC: 0.8308, Test ACC: 0.2677,Test ALPR: 0.7358
+Pretrain Test AUC: 0.8028, Pretrain Test ACC: 0.2428, Pretrain Test ALPR: 0.8172
+
+Tue 14 Oct 2025 20:07:04 INFO data_size: 19149
+Tue 14 Oct 2025 20:07:04 INFO multi_pay_size: 13509
+Tue 14 Oct 2025 20:07:05 INFO Day 191 - Epoch 1 - Avg Loss: 0.4939
+Tue 14 Oct 2025 20:07:05 INFO data_size: 3860
+Tue 14 Oct 2025 20:07:05 INFO multi_pay_size: 2121
+Tue 14 Oct 2025 20:07:05 INFO Testing Day 192...
+Tue 14 Oct 2025 20:07:05 INFO Day 192 - Test AUC: 0.8272, Test ACC: 0.2534,Test ALPR: 0.7791
+Pretrain Test AUC: 0.7986, Pretrain Test ACC: 0.2422, Pretrain Test ALPR: 0.8270
+
+Tue 14 Oct 2025 20:07:05 INFO data_size: 6010
+Tue 14 Oct 2025 20:07:05 INFO multi_pay_size: 4205
+Tue 14 Oct 2025 20:07:06 INFO Day 192 - Epoch 1 - Avg Loss: 0.4864
+Tue 14 Oct 2025 20:07:06 INFO data_size: 1379
+Tue 14 Oct 2025 20:07:06 INFO multi_pay_size: 723
+Tue 14 Oct 2025 20:07:06 INFO Testing Day 193...
+Tue 14 Oct 2025 20:07:06 INFO Day 193 - Test AUC: 0.8160, Test ACC: 0.2669,Test ALPR: 0.8021
+Pretrain Test AUC: 0.7822, Pretrain Test ACC: 0.2473, Pretrain Test ALPR: 0.8848
+
+Tue 14 Oct 2025 20:07:06 INFO data_size: 1872
+Tue 14 Oct 2025 20:07:06 INFO multi_pay_size: 1323
+Tue 14 Oct 2025 20:07:07 INFO Day 193 - Epoch 1 - Avg Loss: 0.5102
+Tue 14 Oct 2025 20:07:07 INFO data_size: 7352
+Tue 14 Oct 2025 20:07:07 INFO multi_pay_size: 3899
+Tue 14 Oct 2025 20:07:07 INFO Testing Day 194...
+Tue 14 Oct 2025 20:07:07 INFO Day 194 - Test AUC: 0.8305, Test ACC: 0.2579,Test ALPR: 0.7752
+Pretrain Test AUC: 0.7982, Pretrain Test ACC: 0.2418, Pretrain Test ALPR: 0.8521
+
+Tue 14 Oct 2025 20:07:07 INFO data_size: 9117
+Tue 14 Oct 2025 20:07:07 INFO multi_pay_size: 6324
+Tue 14 Oct 2025 20:07:08 INFO Day 194 - Epoch 1 - Avg Loss: 0.5039
+Tue 14 Oct 2025 20:07:08 INFO data_size: 14248
+Tue 14 Oct 2025 20:07:08 INFO multi_pay_size: 7653
+Tue 14 Oct 2025 20:07:08 INFO Testing Day 195...
+Tue 14 Oct 2025 20:07:09 INFO Day 195 - Test AUC: 0.8207, Test ACC: 0.2554,Test ALPR: 0.7704
+Pretrain Test AUC: 0.7926, Pretrain Test ACC: 0.2490, Pretrain Test ALPR: 0.8478
+
+Tue 14 Oct 2025 20:07:09 INFO data_size: 22192
+Tue 14 Oct 2025 20:07:09 INFO multi_pay_size: 15920
+Tue 14 Oct 2025 20:07:10 INFO Day 195 - Epoch 1 - Avg Loss: 0.5323
+Tue 14 Oct 2025 20:07:10 INFO data_size: 13764
+Tue 14 Oct 2025 20:07:10 INFO multi_pay_size: 7420
+Tue 14 Oct 2025 20:07:10 INFO Testing Day 196...
+Tue 14 Oct 2025 20:07:11 INFO Day 196 - Test AUC: 0.8244, Test ACC: 0.2682,Test ALPR: 0.7899
+Pretrain Test AUC: 0.7970, Pretrain Test ACC: 0.2483, Pretrain Test ALPR: 0.8461
+
+Tue 14 Oct 2025 20:07:11 INFO data_size: 21595
+Tue 14 Oct 2025 20:07:11 INFO multi_pay_size: 15365
+Tue 14 Oct 2025 20:07:13 INFO Day 196 - Epoch 1 - Avg Loss: 0.5227
+Tue 14 Oct 2025 20:07:13 INFO data_size: 11960
+Tue 14 Oct 2025 20:07:13 INFO multi_pay_size: 6466
+Tue 14 Oct 2025 20:07:13 INFO Testing Day 197...
+Tue 14 Oct 2025 20:07:14 INFO Day 197 - Test AUC: 0.8262, Test ACC: 0.2690,Test ALPR: 0.7671
+Pretrain Test AUC: 0.7977, Pretrain Test ACC: 0.2445, Pretrain Test ALPR: 0.8433
+
+Tue 14 Oct 2025 20:07:14 INFO data_size: 20468
+Tue 14 Oct 2025 20:07:14 INFO multi_pay_size: 14806
+Tue 14 Oct 2025 20:07:15 INFO Day 197 - Epoch 1 - Avg Loss: 0.5290
+Tue 14 Oct 2025 20:07:15 INFO data_size: 10120
+Tue 14 Oct 2025 20:07:15 INFO multi_pay_size: 5556
+Tue 14 Oct 2025 20:07:15 INFO Testing Day 198...
+Tue 14 Oct 2025 20:07:16 INFO Day 198 - Test AUC: 0.8302, Test ACC: 0.2717,Test ALPR: 0.7454
+Pretrain Test AUC: 0.8008, Pretrain Test ACC: 0.2425, Pretrain Test ALPR: 0.8351
+
+Tue 14 Oct 2025 20:07:16 INFO data_size: 18969
+Tue 14 Oct 2025 20:07:16 INFO multi_pay_size: 13939
+Tue 14 Oct 2025 20:07:17 INFO Day 198 - Epoch 1 - Avg Loss: 0.5141
+Tue 14 Oct 2025 20:07:17 INFO data_size: 11037
+Tue 14 Oct 2025 20:07:17 INFO multi_pay_size: 5791
+Tue 14 Oct 2025 20:07:17 INFO Testing Day 199...
+Tue 14 Oct 2025 20:07:18 INFO Day 199 - Test AUC: 0.8297, Test ACC: 0.2500,Test ALPR: 0.7284
+Pretrain Test AUC: 0.8011, Pretrain Test ACC: 0.2494, Pretrain Test ALPR: 0.8231
+
+Tue 14 Oct 2025 20:07:18 INFO Training completed for all days.
+Tue 14 Oct 2025 20:07:18 INFO Average test_auc: 0.8165
+Tue 14 Oct 2025 20:07:18 INFO Average test_acc: 0.2495
+Tue 14 Oct 2025 20:07:18 INFO Average test_alpr: 0.8079
+Tue 14 Oct 2025 20:07:18 INFO Average pretrain_test_auc: 0.8035
+Tue 14 Oct 2025 20:07:18 INFO Average pretrain_test_acc: 0.2488
+Tue 14 Oct 2025 20:07:18 INFO Average pretrain_test_alpr: 0.8220
+Tue 14 Oct 2025 20:07:18 INFO 0.01 ============lr: 0.01============
+Average test_auc: 0.8165
+Average test_acc: 0.2495
+Average test_alpr: 0.8079
+Average pretrain_test_auc: 0.8035
+Average pretrain_test_acc: 0.2488
+Average pretrain_test_alpr: 0.8220
+========================================
+
+
