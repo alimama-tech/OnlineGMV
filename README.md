@@ -1,6 +1,5 @@
 # Delayed Feedback Modeling for Post-Click Gross Merchandise Volume Prediction: Benchmark, Insights and Approaches
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-green)]()
 [![PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange)]()
 
