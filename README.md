@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-green)]()
 [![PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange)]()
 
-This repository provides the code and benchmark for our WWW 2026 paper [*Delayed Feedback Modeling for Post-Click Gross Merchandise Volume Prediction: Benchmark, Insights and Approaches*](./GMV-READER-paper.pdf). 
+This repository provides the code and benchmark for our WWW 2026 paper [*Delayed Feedback Modeling for Post-Click Gross Merchandise Volume Prediction: Benchmark, Insights and Approaches*](https://arxiv.org/abs/2601.19965). 
 
 We introduce **TRACE**, the first benchmark dataset for post-click GMV prediction with delayed feedback, and propose **READER**, a novel GMV prediction paradigm designed to handle the unique challenges of this problem.
 
@@ -13,9 +13,7 @@ We introduce **TRACE**, the first benchmark dataset for post-click GMV predictio
 The experiments are based on a large-scale industrial dataset from Alibaba, capturing multi-stage user behaviors including click, add-to-cart, payment, and refund, with precise timestamps for modeling delay dynamics.
 
 👉 **Dataset Information**:  
-TRACE Dataset *(Coming Soon)*
-
-> 🔒 Note: Due to data privacy policies, the full raw dataset cannot be publicly released. A processed benchmark version with anonymized features will be made available for research purposes.
+TRACE Dataset on [HuggingFace](https://huggingface.co/datasets/alimamaTech/TRACE).
 
 📁 Data structure includes:
 1.  **Features**:
@@ -76,7 +74,7 @@ pip install -r requirements.txt
 
 ### 2. Download data and pretrained parameters
 
-Download TRACE Dataset *(Coming Soon – Access will be available upon paper acceptance)* and place it under `data/`.
+Download TRACE Dataset on [HuggingFace](https://huggingface.co/datasets/alimamaTech/TRACE)  and place it under `data/`.
 
 ### 3. Data Preprocess
 
