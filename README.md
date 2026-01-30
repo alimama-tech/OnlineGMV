@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-green)]()
 [![PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange)]()
 
-This repository provides the code and benchmark for our WWW 2026 paper [*Delayed Feedback Modeling for Post-Click Gross Merchandise Volume Prediction: Benchmark, Insights and Approaches*](https://arxiv.org/abs/2601.19965). 
+This repository provides the code and benchmark for our WWW 2026 paper [*Delayed Feedback Modeling for Post-Click Gross Merchandise Volume Prediction: Benchmark, Insights and Approaches*](https://arxiv.org/pdf/2601.20307). 
 
 We introduce **TRACE**, the first benchmark dataset for post-click GMV prediction with delayed feedback, and propose **READER**, a novel GMV prediction paradigm designed to handle the unique challenges of this problem.
 
